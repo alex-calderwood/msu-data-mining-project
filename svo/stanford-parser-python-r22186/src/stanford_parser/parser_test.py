@@ -83,4 +83,9 @@ class TestCase(unittest.TestCase):
                           ('dobj', 'TO', 'TRUCK')])
         
 
-        
+def main():
+	test = TestCase()
+	test.setUpClass()
+
+if __name__=="__main__":
+	main()        
