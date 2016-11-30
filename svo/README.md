@@ -1,5 +1,3 @@
 # Directory Info
 
-This directory should house the stanford parser in a folder entitled stanford-parser-full-2015-12-09 in order for the scripts that will be housed here to run.Obtain the Stanford Parser at http://nlp.stanford.edu/software/lex-parser.shtml#Download
-
-- Alex
+This directory currently includes a Jpype interface to the Stanford Parser which I cannot get to work, as well as a working access to coreNLP, which includes the parser. The directory is an IntelliJ project, and uses Maven to fetch the coreNLP dependency.

@@ -1,1 +1,0 @@
-This is a test of the Stanford Parser, which I hope works well.

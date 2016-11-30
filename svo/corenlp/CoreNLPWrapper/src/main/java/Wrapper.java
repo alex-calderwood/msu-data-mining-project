@@ -1,6 +1,3 @@
-import edu.stanford.nlp.hcoref.CorefCoreAnnotations.*;
-import edu.stanford.nlp.hcoref.data.CorefChain;
-import edu.stanford.nlp.hcoref.data.CorefChain.CorefMention;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreAnnotations.*;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -11,22 +8,9 @@ import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.*;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 import java.util.*;
-
-import org.apache.commons.io.FilenameUtils;
 
 /**
  * Created by Alex on 7/7/2016.
@@ -39,14 +23,7 @@ public class Wrapper {
     public Wrapper() {
         init();
 
-//        File[] files = getFiles();
-//
-//        for (File file : files) {
-//            String fileText = getTextFromFiles(file);
-//            parse(file.getName(), fileText);
-//        }
-
-        easyParse("Here is some text to parse.");
+        easyFullParse("The dog sat in a large house before moving on.");
 
     }
 
@@ -90,21 +67,42 @@ public class Wrapper {
     private void init() {
         // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref, depparse");
+        props.setProperty("annotators", "tokenize, ssplit, parse, pos, lemma, ner, dcoref, depparse");
         pipeline = new StanfordCoreNLP(props);
     }
 
-    private void easyParse(String text) {
+    private void easyFullParse(String text) {
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
 
         // run all Annotators on this text
         pipeline.annotate(document);
 
+        // print annotations
+        printFullParse(document);
+        printDepParse(document);
         printTokenAnnotations(document);
 
         pr(text.toString() + "\n");
     }
+
+    private void easyDepParse(String text) {
+        pr(text.toString() + "\n");
+
+        // create an empty Annotation just with the given text
+        Annotation document = new Annotation(text);
+
+        // run all Annotators on this text
+        pipeline.annotate(document);
+
+        // print annotations
+        printFullParse(document);
+        printDepParse(document);
+        printTokenAnnotations(document);
+    }
+
+
+
 
 
     private void printParseTree(CoreMap sentence) {
@@ -132,10 +130,6 @@ public class Wrapper {
         List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
         for(CoreMap sentence: sentences) {
-            System.out.println("---Dependencies---");
-            printDependencies(sentence);
-
-
             // traversing the words in the current sentence
             // a CoreLabel is a CoreMap with additional token-specific methods
             List<CoreLabel> tokens = sentence.get(TokensAnnotation.class);
@@ -155,13 +149,34 @@ public class Wrapper {
         }
     }
 
-    private void printDependencies(CoreMap sentence) {
-        // this is the Stanford dependency graph of the current sentence
-        SemanticGraph dependencies = sentence.get(CollapsedCCProcessedDependenciesAnnotation.class);
+    private void printFullParse(Annotation document) {
+        List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
-        System.out.println("Dependencies:");
-        System.out.println(dependencies);
-        System.out.println();
+        System.out.println("---Full Parse---");
+
+        for(CoreMap sentence: sentences) {
+            // this is the Stanford dependency graph of the current sentence
+            SemanticGraph dependencies = sentence.get(CollapsedCCProcessedDependenciesAnnotation.class);
+            System.out.println(dependencies);
+        }
+
+        System.out.println("---End Full Parse---");
+    }
+
+    private void printDepParse(Annotation document) {
+        List<CoreMap> sentences = document.get(SentencesAnnotation.class);
+
+        System.out.println("---Dependencies---");
+
+        for(CoreMap sentence: sentences) {
+            // this is the Stanford dependency graph of the current sentence
+            SemanticGraph dependencies = sentence.get(BasicDependenciesAnnotation.class);
+//            SemanticGraph dependencies2 = sentence.get(EnhancedDependenciesAnnotation.class);
+//            SemanticGraph dependencies3 = sentence.get(EnhancedPlusPlusDependenciesAnnotation.class);
+            System.out.println(dependencies);
+        }
+
+        System.out.println("---End Dependencies---");
     }
 
     private void prln() {
