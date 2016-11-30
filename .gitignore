@@ -2,6 +2,12 @@
 
 stanford-parser-full-2015-12-09/
 
+# Jetbrains project files
+
+.idea/
+.idea
+*/.idea/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -86,7 +92,7 @@ celerybeat-schedule
 venv/
 ENV/
 
-# Spyder project settings
+#Spyder project settings
 .spyderproject
 
 # Rope project settings
