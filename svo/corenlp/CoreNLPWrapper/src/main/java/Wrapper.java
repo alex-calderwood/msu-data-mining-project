@@ -1,10 +1,17 @@
+import edu.stanford.nlp.ie.util.RelationTriple;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreAnnotations.*;
 import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.IndexedWord;
+import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations.*;
+import edu.stanford.nlp.semgraph.semgrex.SemgrexMatcher;
+import edu.stanford.nlp.semgraph.semgrex.SemgrexPattern;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
+import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.util.CoreMap;
@@ -19,19 +26,17 @@ import java.util.*;
 public class Wrapper {
     StanfordCoreNLP pipeline;
 
+    // execution flags
+    boolean runFullParse = true;
+    boolean runSentiment = false;
+    boolean runDepParse = false;
+    boolean runTokenAnnotations = true;
+    boolean runOpenIE = true;
 
     public Wrapper() {
         init();
 
-        easyFullParse("The dog sat in a large house before moving on.");
-
-    }
-
-    private File[] getFiles() {
-        String fileName = "TextFiles/";
-        File folder = new File(fileName);
-        System.out.println("File " + fileName + " exists " + folder.isDirectory());
-        return folder.listFiles();
+        easyParse("Jimmy fed Billy the dog. Billy sat in a large house before moving on. He is a large dog.");
     }
 
     private String getTextFromFiles(File file) {
@@ -51,11 +56,11 @@ public class Wrapper {
 
             bufferedReader.close();
         } catch (FileNotFoundException ex) {
-            System.out.println(
+            IoUtils.prln(
                     "Unable to open file '" +
                             file + "'");
         } catch (IOException ex) {
-            System.out.println(
+            IoUtils.prln(
                     "Error reading file '"
                             + file + "'");
         }
@@ -65,29 +70,27 @@ public class Wrapper {
     }
 
     private void init() {
-        // creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution
+        // creates a StanfordCoreNLP object
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize, ssplit, parse, pos, lemma, ner, dcoref, depparse");
+
+        StringBuilder propertiesSB = new StringBuilder();
+        propertiesSB.append("tokenize, ssplit, pos, lemma, ner, depparse");
+        if(runFullParse)
+            propertiesSB.append(", parse, dcoref");
+        if (runFullParse && runSentiment)
+            propertiesSB.append(", sentiment");
+        if(runOpenIE)
+            propertiesSB.append(", natlog, openie");
+
+        String propertiesString = propertiesSB.toString();
+
+        props.setProperty("annotators", propertiesString);
         pipeline = new StanfordCoreNLP(props);
     }
 
-    private void easyFullParse(String text) {
-        // create an empty Annotation just with the given text
-        Annotation document = new Annotation(text);
 
-        // run all Annotators on this text
-        pipeline.annotate(document);
-
-        // print annotations
-        printFullParse(document);
-        printDepParse(document);
-        printTokenAnnotations(document);
-
-        pr(text.toString() + "\n");
-    }
-
-    private void easyDepParse(String text) {
-        pr(text.toString() + "\n");
+    private void easyParse(String text) {
+        IoUtils.pr(text.toString() + "\n");
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
@@ -96,14 +99,17 @@ public class Wrapper {
         pipeline.annotate(document);
 
         // print annotations
-        printFullParse(document);
-        printDepParse(document);
-        printTokenAnnotations(document);
+        if(runFullParse)
+            printFullParse(document);
+        if(runDepParse)
+            printDepParse(document);
+        if(runTokenAnnotations)
+            printTokenAnnotations(document);
+        if(runSentiment)
+            printSentiment(document);
+        if(runOpenIE)
+            printOpenIeSvoTriple(document);
     }
-
-
-
-
 
     private void printParseTree(CoreMap sentence) {
         List<Tree> nouns = new ArrayList<Tree>();
@@ -119,11 +125,11 @@ public class Wrapper {
             }
         }
 
-        System.out.println("Noun Phrases:");
+        IoUtils.prln("Noun Phrases:");
         for (Tree NP : nouns) {
-            System.out.println(NP.toString());
+            IoUtils.prln(NP.toString());
         }
-        System.out.println();
+        IoUtils.prln();
     }
 
     private void printTokenAnnotations(Annotation document) {
@@ -141,10 +147,9 @@ public class Wrapper {
 
                 int index = token.index();
 
-//                String depparse = token.get(BasicDependencyAnnotation.class);
                 List bag = token.get(CoreAnnotations.BagOfWordsAnnotation.class);
 
-                System.out.println(bag + " " + ne + " " + pos + "\t" + word + "\t" + index);
+                IoUtils.prln(bag + " " + ne + " " + pos + "\t" + word + "\t" + index);
             }
         }
     }
@@ -152,56 +157,79 @@ public class Wrapper {
     private void printFullParse(Annotation document) {
         List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
-        System.out.println("---Full Parse---");
+        IoUtils.prln("---Full Parse---");
 
         for(CoreMap sentence: sentences) {
             // this is the Stanford dependency graph of the current sentence
             SemanticGraph dependencies = sentence.get(CollapsedCCProcessedDependenciesAnnotation.class);
-            System.out.println(dependencies);
+            IoUtils.prln(dependencies.toString());
         }
 
-        System.out.println("---End Full Parse---");
+        IoUtils.prln("---End Full Parse---");
     }
 
     private void printDepParse(Annotation document) {
         List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 
-        System.out.println("---Dependencies---");
+        IoUtils.prln("---Dependencies---");
 
         for(CoreMap sentence: sentences) {
             // this is the Stanford dependency graph of the current sentence
             SemanticGraph dependencies = sentence.get(BasicDependenciesAnnotation.class);
 //            SemanticGraph dependencies2 = sentence.get(EnhancedDependenciesAnnotation.class);
 //            SemanticGraph dependencies3 = sentence.get(EnhancedPlusPlusDependenciesAnnotation.class);
-            System.out.println(dependencies);
+            IoUtils.prln(dependencies.toString());
         }
 
-        System.out.println("---End Dependencies---");
+        IoUtils.prln("---End Dependencies---");
     }
 
-    private void prln() {
-        pr("\n");
+    private void printSentiment(Annotation document) {
+        List<CoreMap> sentences = document.get(SentencesAnnotation.class);
+
+        IoUtils.prln("---Sentiment---");
+
+        for(CoreMap sentence: sentences) {
+            Tree sent = null;
+            if(runSentiment)
+                 sent = sentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
+
+            IoUtils.prln(sent.toString());
+        }
+
+        IoUtils.prln("---Sentiment---");
     }
 
-    private void pr(String text) {
-        FileWriter fileWriter = null;
-        try {
-            fileWriter = new FileWriter("parseOutput.csv");
-            fileWriter.append(text + "\t");
-            System.out.print(text);
-        } catch(IOException e) {
-            System.out.println("Error Writing File");
-            e.printStackTrace();
-        } finally {
-            try {
-            fileWriter.flush();
-            fileWriter.close();
-            } catch (IOException e) {
-                System.out.println("Error while closing File Writer");
-                e.printStackTrace();
+
+    private void svo1() {
+        SemgrexPattern pattern = SemgrexPattern.compile("{$}=root >/.subj(pass)?/ {}=subject >/.obj/ {}=object");
+        SemgrexMatcher matcher = pattern.matcher(new Sentence("A cat is sitting on the table").dependencyGraph());
+        while (matcher.find()) {
+            IndexedWord root = matcher.getNode("root");
+            IndexedWord subject = matcher.getNode("subject");
+            IndexedWord object = matcher.getNode("object");
+            System.err.println(root.word() + "(" + subject.word() + ", " + object.word());
+        }
+    }
+
+    private void printOpenIeSvoTriple(Annotation document) {
+        IoUtils.prln("--- Begin SVO ---");
+        // Loop over sentences in the document
+        for (CoreMap sentence : document.get(CoreAnnotations.SentencesAnnotation.class)) {
+            // Get the OpenIE triples for the sentence
+            Collection<RelationTriple> triples = sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
+            // Print the triples
+            for (RelationTriple triple : triples) {
+                IoUtils.prln(triple.confidence + "\t" +
+                        triple.subjectLemmaGloss() + "\t" +
+                        triple.relationLemmaGloss() + "\t" +
+                        triple.objectLemmaGloss());
             }
         }
+
+        IoUtils.prln("--- End SVO ---");
     }
+
     public static void main(String[] args) {
         new Wrapper();
     }
