@@ -1,8 +1,8 @@
-from DCReadability import grade
+import Readability.DCReadability as DCR
 
-textfile = open('test.txt', "r")
+textfile = open('Readability/test.txt', "r")
 
 text = textfile.read()
-grade(text)
+DCR.grade(text)
 
 textfile.close()
