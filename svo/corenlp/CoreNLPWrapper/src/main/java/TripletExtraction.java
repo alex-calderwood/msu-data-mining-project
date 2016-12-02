@@ -23,7 +23,7 @@ import java.util.*;
  * Created by Alex on 7/7/2016.
  */
 
-public class Wrapper {
+public class TripletExtraction {
     StanfordCoreNLP pipeline;
 
     // execution flags
@@ -32,41 +32,26 @@ public class Wrapper {
     boolean runDepParse = false;
     boolean runTokenAnnotations = true;
     boolean runOpenIE = true;
+    boolean runCoref = true;
 
-    public Wrapper() {
+    boolean doManualPrinting = false;
+
+    boolean printToXML = true;
+
+    public TripletExtraction() {
+        // Initialize CoreNLP with correct properties
         init();
 
-        easyParse("Jimmy fed Billy the dog. Billy sat in a large house before moving on. He is a large dog.");
-    }
+        // Get all files in specified directory
+        File[] files = IoUtils.getFiles("TextFiles/");
 
-    private String getTextFromFiles(File file) {
-        String fileText;
-        StringBuilder sb = new StringBuilder();
-        try {
-            FileReader fileReader =
-                    new FileReader(file);
-
-            BufferedReader bufferedReader =
-                    new BufferedReader(fileReader);
-
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                sb.append(line);
-            }
-
-            bufferedReader.close();
-        } catch (FileNotFoundException ex) {
-            IoUtils.prln(
-                    "Unable to open file '" +
-                            file + "'");
-        } catch (IOException ex) {
-            IoUtils.prln(
-                    "Error reading file '"
-                            + file + "'");
+        // Extract Subject-Predicate-Object triplets
+        for (File file : files) {
+            String outName = "out_" + file.getName();
+            IoUtils.openFile(outName);
+            easyParse(IoUtils.extractText(file));
+            IoUtils.closeFile();
         }
-        fileText = sb.toString();
-
-        return fileText;
     }
 
     private void init() {
@@ -74,9 +59,11 @@ public class Wrapper {
         Properties props = new Properties();
 
         StringBuilder propertiesSB = new StringBuilder();
-        propertiesSB.append("tokenize, ssplit, pos, lemma, ner, depparse");
+        propertiesSB.append("tokenize, ssplit, pos, lemma, depparse");
         if(runFullParse)
-            propertiesSB.append(", parse, dcoref");
+            propertiesSB.append(", parse");
+        if(runCoref)
+            propertiesSB.append(", ner, dcoref");
         if (runFullParse && runSentiment)
             propertiesSB.append(", sentiment");
         if(runOpenIE)
@@ -85,6 +72,7 @@ public class Wrapper {
         String propertiesString = propertiesSB.toString();
 
         props.setProperty("annotators", propertiesString);
+
         pipeline = new StanfordCoreNLP(props);
     }
 
@@ -99,16 +87,27 @@ public class Wrapper {
         pipeline.annotate(document);
 
         // print annotations
-        if(runFullParse)
-            printFullParse(document);
-        if(runDepParse)
-            printDepParse(document);
-        if(runTokenAnnotations)
-            printTokenAnnotations(document);
-        if(runSentiment)
-            printSentiment(document);
-        if(runOpenIE)
-            printOpenIeSvoTriple(document);
+        if(doManualPrinting) {
+            if (runFullParse)
+                printFullParse(document);
+            if (runDepParse)
+                printDepParse(document);
+            if (runTokenAnnotations)
+                printTokenAnnotations(document);
+            if (runSentiment)
+                printSentiment(document);
+            if (runOpenIE)
+                printOpenIeSvoTriple(document);
+        }
+
+        pipeline.prettyPrint(document, System.out);
+
+        if(printToXML)
+            try {
+                pipeline.xmlPrint(document, new FileWriter("test.xml"));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
     }
 
     private void printParseTree(CoreMap sentence) {
@@ -224,6 +223,7 @@ public class Wrapper {
                         triple.subjectLemmaGloss() + "\t" +
                         triple.relationLemmaGloss() + "\t" +
                         triple.objectLemmaGloss());
+
             }
         }
 
@@ -231,6 +231,6 @@ public class Wrapper {
     }
 
     public static void main(String[] args) {
-        new Wrapper();
+        new TripletExtraction();
     }
 }
