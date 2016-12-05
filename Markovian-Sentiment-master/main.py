@@ -15,6 +15,7 @@ parser.add_argument('-g')
 def subjlda(blog, outfile):
     blog.vectorize()
     pi, theta, phi = inference.train_subjlda(blog)
+    print "done"
 
     result = { 'pi': pi, 'theta': theta, 'phi': phi, 'blog': blog }
     cPickle.dump(result, open(outfile, 'w'), -1)

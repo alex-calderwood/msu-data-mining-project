@@ -181,7 +181,8 @@ def train_lda(blog, iters=400, gamma=None):
         print "Distribution:", np.histogram(blog.topic_assign, bins=range(8))
 
 #@profile
-def train_subjlda(blog, iters=200, beta=None, gamma=None):
+def train_subjlda(blog, iters=100, beta=None, gamma=None):
+    print "train"
     D = len(blog.docs)
     V = len(blog.lexicon)
     #_, M, T = blog.shape()
@@ -238,6 +239,7 @@ def train_subjlda(blog, iters=200, beta=None, gamma=None):
 #    subj_changes = np.zeros_like(blog.sent_to_doc)
 #
     for iter in xrange(iters):
+        print iter
         start = time.time()
         # E-step: Gibbs sample
         # Shuffle
@@ -320,8 +322,8 @@ def train_subjlda(blog, iters=200, beta=None, gamma=None):
 #            print "New theta:", theta
 #            print "Min elt:", np.min(theta)
 
-        print "Iteration %d: %g seconds"%(iter, time.time() - start)
-        print "              %d subj, %d obj"%(np.sum(blog.subj_assign == 1),
+    print "Iteration %d: %g seconds"%(iter, time.time() - start)
+    print "              %d subj, %d obj"%(np.sum(blog.subj_assign == 1),
                                                np.sum(blog.subj_assign == 0))
     theta = update_theta()
     pi, phi = update_pi_phi()
