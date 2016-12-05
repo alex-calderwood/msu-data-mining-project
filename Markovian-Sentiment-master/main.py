@@ -18,7 +18,7 @@ def subjlda(blog, outfile):
 
     result = { 'pi': pi, 'theta': theta, 'phi': phi, 'blog': blog }
     cPickle.dump(result, open(outfile, 'w'), -1)
-    analyze_subjlda(result)
+    #analyze_subjlda(result)
 
 def analyze_subjlda(result):
     blog, phi = result['blog'], result['phi']

@@ -213,7 +213,7 @@ def train_subjlda(blog, iters=200, beta=None, gamma=None):
     # Initialize alpha from the data (IMPORTANT! Preserve asymmetry.)
 
     # Initialize theta first, without zero prior (modified Equation 5.22)
-    print Nmj, Nm
+    #print Nmj, Nm
     theta = np.transpose(np.transpose(Nmj) / Nm) + 1e-10 # prevent zeros
     alpha = np.ones((K,S)) * .01
 #    alpha = update_alpha_fp(alpha, theta, blog.subj_assign)
