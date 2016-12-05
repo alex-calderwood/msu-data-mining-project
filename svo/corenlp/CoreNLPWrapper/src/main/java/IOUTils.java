@@ -7,26 +7,26 @@ public class IoUtils {
 
     // Singleton for writing to a given file
     private static FileWriter fileWriter = null;
+    private static String fileName = "output.txt";
 
     private static FileWriter getFileWriter() {
         if(fileWriter != null)
             return fileWriter;
         else try {
-            fileWriter = new FileWriter("output.csv");
+            fileWriter = new FileWriter(fileName);
         } catch (IOException e) {
             e.printStackTrace();
         }
         return fileWriter;
     }
 
-    public static File[] getFiles() {
-        String fileName = "TextFiles/";
-        File folder = new File(fileName);
-        System.out.println("File " + fileName + " exists " + folder.isDirectory());
+    public static File[] getFiles(String dir) {
+        File folder = new File(dir);
+        System.out.println("Folder " + dir + " exists " + folder.isDirectory());
         return folder.listFiles();
     }
 
-    public static String getTextFromFiles(File file) {
+    public static String extractText(File file) {
         String fileText;
         StringBuilder sb = new StringBuilder();
         try {
@@ -52,12 +52,6 @@ public class IoUtils {
                             + file + "'");
         }
         fileText = sb.toString();
-
-        // Get rid of all the text other than the reddit post
-//        System.out.println("Text: " + fileText);
-//        fileText = fileText.replaceAll(ignorePattern, "");
-//        fileText = fileText.replaceAll(ellipsis, ". ");
-//        System.out.println("Regex: " + fileText);
 
         return fileText;
     }
@@ -87,7 +81,17 @@ public class IoUtils {
         }
     }
 
-    public static void close() {
+    public static void openFile(String name) {
+        fileName = name;
+
+        // Invalidate filewriter
+        fileWriter = null;
+    }
+
+    public static void closeFile() {
+        if(getFileWriter() == null)
+            return;
+
         try {
             getFileWriter().flush();
             getFileWriter().close();
@@ -95,5 +99,8 @@ public class IoUtils {
             System.out.println("Error while closing File Writer");
             e.printStackTrace();
         }
+
+        // Invalidate filewriter
+        fileWriter = null;
     }
 }
