@@ -1,9 +1,11 @@
 import xml.etree.ElementTree as ET
 
+
 def getXMLRoot(xmlFileName):
     xmlTree = ET.parse(xmlFileName)
     xmlRoot = xmlTree.getroot()
     return xmlRoot
+
 
 def getSPOTuples(xmlRoot):
     subjects = []
@@ -24,19 +26,19 @@ def getSPOTuples(xmlRoot):
     return subjects, predicates, objects
 
 
-def occurances(list):
-    trumps = []
-    clintons = []
+def occurances(entityList):
+    trumpTripleIndices = []
+    clintonTripleIndices = []
 
-    for i in range(len(list)):
-        text = list[i]
+    for i in range(len(entityList)):
+        text = entityList[i]
         if 'Trump' in text:
-            trumps.append(i)
+            trumpTripleIndices.append(i)
         elif 'Clinton' in text:
-            clintons.append(i)
+            clintonTripleIndices.append(i)
 
-    print("Trump: ", len(trumps), "Clinton:", len(clintons))
-    return trumps, clintons
+    print("Trump: ", len(trumpTripleIndices), "Clinton:", len(clintonTripleIndices))
+    return trumpTripleIndices, clintonTripleIndices
 
 
 if __name__ == '__main__':
@@ -45,7 +47,7 @@ if __name__ == '__main__':
     subjects, predicates, objects = getSPOTuples(root)
 
     print(subjects)
-    occurances(subjects)
+    subTrumps, subClintons = occurances(subjects)
 
     print(predicates)
     occurances(predicates)
@@ -53,7 +55,10 @@ if __name__ == '__main__':
     print(objects)
     occurances(objects)
 
+    print('\nTrump Triples:')
+    for tripleIndex in subTrumps:
+        print(subjects[tripleIndex], predicates[tripleIndex], objects[tripleIndex])
 
-
-
-
+    print("\nClinton Triples:")
+    for tripleIndex in subClintons:
+        print(subjects[tripleIndex], predicates[tripleIndex], objects[tripleIndex])
