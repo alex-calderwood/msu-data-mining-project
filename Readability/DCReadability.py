@@ -23,7 +23,7 @@ def grade(doc):
         if any(rootWord in w for w in cw):
             i=i+1
     DS = 1-i/(len(words)-len(sentences))
-    RGS = (0.1579 * DS) + (0.0496 * ASL) + 3.6365
+    RGS = (0.1579 * DS*100) + (0.0496 * ASL) + 3.6365
     print "reading grade is:",RGS
 
     commonWordsFile.close()
