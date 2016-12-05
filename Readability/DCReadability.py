@@ -7,7 +7,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 #somehow this fixes rootword in w
 import sys  
 reload(sys)  
-sys.setdefaultencoding('utf8')
+#sys.setdefaultencoding('utf8')
 
 def grade(doc, dict):
     stemmer = PorterStemmer()
@@ -19,7 +19,7 @@ def grade(doc, dict):
     i=0
     
     for word in words:
-        rootWord = stemmer.stem(word)
+        rootWord = stemmer.stem(unicode(word,'utf-8'))
         if dict.has_key(rootWord):
             i=i+1
     DS = 1-i/(len(words)-len(sentences))
