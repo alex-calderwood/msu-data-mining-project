@@ -15,7 +15,7 @@ def make_dataset(blogdir):
     entries = [ f for f in os.listdir(blogdir) ]
     entries.sort()
     #print "Blog %s has %d pages"%(blogdir, entries[-1])
-
+    i=0
     for page in entries:
         doc_dom = os.path.join(blogdir, str(page))
         # posts = extract_posts(doc_dom)
@@ -23,9 +23,13 @@ def make_dataset(blogdir):
         # for post_dom in posts:
         #     blog.add_doc(text_from_post(post_dom))
         textfile = open(doc_dom, "r")
-        blog.add_doc(textfile.read())
-    
+        try:
+            blog.add_doc(textfile.read())
+        except UnicodeDecodeError:
+            #print "skip", textfile.name
+            i=i+1
 #    blog.vectorize()
+    print "skipped:",i
     # Save it
     return blog
 

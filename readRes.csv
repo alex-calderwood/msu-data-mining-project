@@ -21,10 +21,10 @@ article_116.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.5395851851
 article_117.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.963022222222222
 article_118.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",7.125866666666667
 article_119.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.288448780487805
-article_12.txt,St. Louis Post-Dispatch (Missouri) ,6.297292307692308
-article_120.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.68912
+article_12.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",6.297292307692308
+article_120.txt,St. Louis Post-Dispatch (Missouri) ,5.68912
 article_121.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.378057142857143
-article_122.txt,The Lebanon Daily News (Pennsylvania) ,5.5366
+article_122.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.5366
 article_123.txt,The Lebanon Daily News (Pennsylvania) ,5.42872
 article_124.txt,The Lebanon Daily News (Pennsylvania) ,5.6874666666666664
 article_125.txt,The Lebanon Daily News (Pennsylvania) ,6.138
@@ -32,8 +32,8 @@ article_126.txt,The Lebanon Daily News (Pennsylvania) ,5.60976
 article_127.txt,The Lebanon Daily News (Pennsylvania) ,6.138
 article_128.txt,The Lebanon Daily News (Pennsylvania) ,6.138
 article_129.txt,The Lebanon Daily News (Pennsylvania) ,5.185955555555555
-article_13.txt,St. Louis Post-Dispatch (Missouri) ,5.222017391304348
-article_130.txt,Lowell Sun (Massachusetts) ,7.3594
+article_13.txt,The Lebanon Daily News (Pennsylvania) ,5.222017391304348
+article_130.txt,St. Louis Post-Dispatch (Missouri) ,7.3594
 article_131.txt,Lowell Sun (Massachusetts) ,6.6526
 article_132.txt,Lowell Sun (Massachusetts) ,6.848342857142857
 article_133.txt,Lowell Sun (Massachusetts) ,5.456751515151515
@@ -43,8 +43,8 @@ article_136.txt,Lowell Sun (Massachusetts) ,9.994399999999999
 article_137.txt,Lowell Sun (Massachusetts) ,6.1139294117647065
 article_138.txt,Lowell Sun (Massachusetts) ,5.116496551724138
 article_139.txt,Lowell Sun (Massachusetts) ,4.948426666666666
-article_14.txt,St. Louis Post-Dispatch (Missouri) ,5.49917037037037
-article_140.txt,Lowell Sun (Massachusetts) ,5.780654545454546
+article_14.txt,Lowell Sun (Massachusetts) ,5.49917037037037
+article_140.txt,St. Louis Post-Dispatch (Missouri) ,5.780654545454546
 article_141.txt,Lowell Sun (Massachusetts) ,7.1175999999999995
 article_142.txt,Lowell Sun (Massachusetts) ,7.845066666666666
 article_143.txt,Lowell Sun (Massachusetts) ,5.986183783783783
@@ -52,21 +52,21 @@ article_144.txt,Lowell Sun (Massachusetts) ,5.88752
 article_145.txt,Lowell Sun (Massachusetts) ,5.537485714285714
 article_146.txt,Lowell Sun (Massachusetts) ,5.723578947368421
 article_147.txt,Lowell Sun (Massachusetts) ,5.833835294117646
-article_148.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.42872
+article_148.txt,Lowell Sun (Massachusetts) ,5.42872
 article_149.txt,"The Evening Sun (Hanover, Pennsylvania) ",6.3302
-article_15.txt,St. Louis Post-Dispatch (Missouri) ,5.41632
-article_150.txt,"The Evening Sun (Hanover, Pennsylvania) ",11.3336
+article_15.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.41632
+article_150.txt,St. Louis Post-Dispatch (Missouri) ,11.3336
 article_151.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.27364705882353
 article_152.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.407858823529412
-article_153.txt,San Gabriel Valley Tribune (California) ,5.415938461538461
+article_153.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.415938461538461
 article_154.txt,San Gabriel Valley Tribune (California) ,5.965777777777777
 article_155.txt,San Gabriel Valley Tribune (California) ,5.803804878048781
 article_156.txt,San Gabriel Valley Tribune (California) ,5.81808
 article_157.txt,San Gabriel Valley Tribune (California) ,5.388441379310345
 article_158.txt,San Gabriel Valley Tribune (California) ,5.374986666666667
 article_159.txt,San Gabriel Valley Tribune (California) ,5.254624
-article_16.txt,St. Louis Post-Dispatch (Missouri) ,6.4613538461538464
-article_160.txt,San Gabriel Valley Tribune (California) ,5.3014769230769225
+article_16.txt,San Gabriel Valley Tribune (California) ,6.4613538461538464
+article_160.txt,St. Louis Post-Dispatch (Missouri) ,5.3014769230769225
 article_161.txt,San Gabriel Valley Tribune (California) ,5.434742857142856
 article_162.txt,San Gabriel Valley Tribune (California) ,5.427384615384615
 article_163.txt,San Gabriel Valley Tribune (California) ,5.734523076923077
@@ -76,9 +76,9 @@ article_166.txt,San Gabriel Valley Tribune (California) ,5.8962
 article_167.txt,San Gabriel Valley Tribune (California) ,5.6171999999999995
 article_168.txt,San Gabriel Valley Tribune (California) ,5.8962
 article_169.txt,San Gabriel Valley Tribune (California) ,6.170690909090909
-article_17.txt,St. Louis Post-Dispatch (Missouri) ,6.810079999999999
-article_170.txt,San Gabriel Valley Tribune (California) ,6.2248
-article_171.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.953907692307692
+article_17.txt,San Gabriel Valley Tribune (California) ,6.810079999999999
+article_170.txt,St. Louis Post-Dispatch (Missouri) ,6.2248
+article_171.txt,San Gabriel Valley Tribune (California) ,5.953907692307692
 article_172.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.803804878048781
 article_173.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.81808
 article_174.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.379889655172414
@@ -87,31 +87,31 @@ article_176.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.417028571428571
 article_177.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.668177777777778
 article_178.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.564738461538461
 article_179.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.422014814814815
-article_18.txt,St. Louis Post-Dispatch (Missouri) ,6.282666666666667
-article_180.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.650857142857143
+article_18.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",6.282666666666667
+article_180.txt,St. Louis Post-Dispatch (Missouri) ,5.650857142857143
 article_181.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.8962
 article_182.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.719261538461538
-article_183.txt,San Bernardino Sun (California) ,5.881142857142857
+article_183.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.881142857142857
 article_184.txt,San Bernardino Sun (California) ,5.803804878048781
 article_185.txt,San Bernardino Sun (California) ,5.81808
 article_186.txt,San Bernardino Sun (California) ,5.328693333333333
 article_187.txt,San Bernardino Sun (California) ,5.177364705882352
 article_188.txt,San Bernardino Sun (California) ,5.254624
 article_189.txt,San Bernardino Sun (California) ,5.3121599999999995
-article_19.txt,St. Louis Post-Dispatch (Missouri) ,5.4839
-article_190.txt,San Bernardino Sun (California) ,4.841424999999999
+article_19.txt,San Bernardino Sun (California) ,5.4839
+article_190.txt,St. Louis Post-Dispatch (Missouri) ,4.841424999999999
 article_191.txt,San Bernardino Sun (California) ,5.378179310344827
 article_192.txt,San Bernardino Sun (California) ,5.568727272727273
 article_193.txt,San Bernardino Sun (California) ,5.8962
 article_194.txt,San Bernardino Sun (California) ,6.045688888888888
-article_195.txt,The New York Times ,5.252851063829787
+article_195.txt,San Bernardino Sun (California) ,5.252851063829787
 article_196.txt,The New York Times ,5.644066666666666
 article_197.txt,The New York Times ,6.28432
 article_198.txt,The New York Times ,5.1088
 article_199.txt,The New York Times ,5.657781818181818
-article_2.txt,St. Louis Post-Dispatch (Missouri) ,5.658315789473685
+article_2.txt,The New York Times ,5.658315789473685
 article_20.txt,St. Louis Post-Dispatch (Missouri) ,5.3072
-article_200.txt,The New York Times ,5.410634146341463
+article_200.txt,St. Louis Post-Dispatch (Missouri) ,5.410634146341463
 article_201.txt,The New York Times ,5.129632
 article_202.txt,The New York Times ,5.4405
 article_203.txt,The New York Times ,5.164036363636363
@@ -120,9 +120,9 @@ article_205.txt,The New York Times ,5.028676923076922
 article_207.txt,The New York Times ,5.256964102564102
 article_208.txt,The New York Times ,5.332
 article_209.txt,The New York Times ,4.910399999999999
-article_21.txt,St. Louis Post-Dispatch (Missouri) ,5.4467
+article_21.txt,The New York Times ,5.4467
 article_210.txt,The New York Times ,5.510109090909091
-article_211.txt,The New York Times ,5.060327272727273
+article_211.txt,St. Louis Post-Dispatch (Missouri) ,5.060327272727273
 article_212.txt,The New York Times ,5.1889674418604645
 article_213.txt,The New York Times ,5.183199999999999
 article_214.txt,The New York Times ,4.916056140350877
@@ -131,9 +131,9 @@ article_216.txt,The New York Times ,5.241818181818182
 article_217.txt,The New York Times ,5.209653333333334
 article_218.txt,The New York Times ,5.123921951219512
 article_219.txt,The New York Times ,5.232799999999999
-article_22.txt,St. Louis Post-Dispatch (Missouri) ,5.98672
+article_22.txt,The New York Times ,5.98672
 article_220.txt,The New York Times ,6.0529714285714284
-article_222.txt,The New York Times ,5.374052173913043
+article_222.txt,St. Louis Post-Dispatch (Missouri) ,5.374052173913043
 article_223.txt,The New York Times ,5.782909090909091
 article_224.txt,The New York Times ,4.919079999999999
 article_225.txt,The New York Times ,4.7863999999999995
@@ -141,10 +141,10 @@ article_226.txt,The New York Times ,5.556505263157894
 article_227.txt,The New York Times ,5.674948571428571
 article_228.txt,The New York Times ,5.2072
 article_229.txt,The New York Times ,5.6264
-article_23.txt,St. Louis Post-Dispatch (Missouri) ,5.2886
+article_23.txt,The New York Times ,5.2886
 article_230.txt,The New York Times ,5.569737931034482
 article_231.txt,The New York Times ,5.1432
-article_232.txt,The New York Times ,4.9352
+article_232.txt,St. Louis Post-Dispatch (Missouri) ,4.9352
 article_233.txt,The New York Times ,5.096097560975609
 article_234.txt,The New York Times ,5.1325666666666665
 article_235.txt,The New York Times ,5.366854054054054
@@ -152,10 +152,10 @@ article_236.txt,The New York Times ,5.339515151515151
 article_237.txt,The New York Times ,5.664104347826087
 article_238.txt,The New York Times ,5.2638
 article_239.txt,The New York Times ,4.940514285714285
-article_24.txt,St. Louis Post-Dispatch (Missouri) ,5.795905882352941
+article_24.txt,The New York Times ,5.795905882352941
 article_240.txt,The New York Times ,5.692977777777777
 article_241.txt,The New York Times ,5.485309090909091
-article_242.txt,The New York Times ,6.200992
+article_242.txt,St. Louis Post-Dispatch (Missouri) ,6.200992
 article_243.txt,The New York Times ,5.51056
 article_244.txt,The New York Times ,4.81616
 article_245.txt,The New York Times ,5.17824
@@ -163,67 +163,67 @@ article_246.txt,The New York Times ,5.129090909090909
 article_247.txt,The New York Times ,5.226964705882352
 article_248.txt,The New York Times ,5.510991304347826
 article_249.txt,The New York Times ,5.970186666666667
-article_25.txt,St. Louis Post-Dispatch (Missouri) ,5.424114285714285
+article_25.txt,The New York Times ,5.424114285714285
 article_250.txt,The New York Times ,5.316738461538462
 article_251.txt,The New York Times ,5.212723809523809
-article_252.txt,The New York Times ,5.908386206896552
+article_252.txt,St. Louis Post-Dispatch (Missouri) ,5.908386206896552
 article_254.txt,The New York Times ,5.136699999999999
 article_255.txt,The New York Times ,5.6227586206896545
 article_256.txt,The New York Times ,4.921028571428572
 article_258.txt,The New York Times ,5.28455652173913
 article_259.txt,The New York Times ,5.565303703703703
-article_26.txt,St. Louis Post-Dispatch (Missouri) ,5.880210526315789
+article_26.txt,The New York Times ,5.880210526315789
 article_260.txt,The New York Times ,5.7436799999999995
 article_261.txt,The New York Times ,5.104884210526316
 article_263.txt,The New York Times ,5.207454945054945
 article_264.txt,The New York Times ,5.2576
-article_265.txt,The New York Times ,6.00656
+article_265.txt,St. Louis Post-Dispatch (Missouri) ,6.00656
 article_266.txt,The New York Times ,5.514618181818181
 article_267.txt,The New York Times ,5.191090909090908
 article_268.txt,The New York Times ,5.459999999999999
 article_269.txt,The New York Times ,5.414666666666666
-article_27.txt,St. Louis Post-Dispatch (Missouri) ,5.569371428571428
+article_27.txt,The New York Times ,5.569371428571428
 article_270.txt,The New York Times ,5.168611764705882
 article_271.txt,The New York Times ,5.1402133333333335
 article_272.txt,The New York Times ,5.056719999999999
 article_274.txt,The New York Times ,4.815015384615384
 article_275.txt,The New York Times ,5.2937666666666665
-article_276.txt,The New York Times ,5.9024
+article_276.txt,St. Louis Post-Dispatch (Missouri) ,5.9024
 article_277.txt,The New York Times ,5.606571428571428
 article_278.txt,The New York Times ,5.395127272727272
 article_279.txt,The New York Times ,5.336133333333333
-article_28.txt,St. Louis Post-Dispatch (Missouri) ,5.3298434782608695
+article_28.txt,The New York Times ,5.3298434782608695
 article_280.txt,The New York Times ,5.559115789473684
 article_281.txt,The New York Times ,6.418690909090909
 article_282.txt,The New York Times ,5.274356756756756
 article_283.txt,The New York Times ,4.9415589743589745
 article_284.txt,The New York Times ,4.8178769230769225
-article_285.txt,New York Observer ,5.270791489361702
-article_286.txt,New York Observer ,5.968533333333333
-article_287.txt,New York Observer ,4.9166
-article_29.txt,St. Louis Post-Dispatch (Missouri) ,9.83568
-article_290.txt,New York Observer ,5.569217391304347
-article_292.txt,New York Observer ,5.588626086956522
-article_293.txt,New York Observer ,5.4963
+article_285.txt,The New York Times ,5.270791489361702
+article_286.txt,St. Louis Post-Dispatch (Missouri) ,5.968533333333333
+article_287.txt,The New York Times ,4.9166
+article_29.txt,The New York Times ,9.83568
+article_290.txt,The New York Times ,5.569217391304347
+article_292.txt,The New York Times ,5.588626086956522
+article_293.txt,The New York Times ,5.4963
 article_294.txt,New York Observer ,6.019786666666667
 article_295.txt,New York Observer ,5.594171428571428
 article_297.txt,New York Observer ,5.726044444444444
 article_298.txt,New York Observer ,5.4312
 article_299.txt,New York Observer ,5.4529
 article_3.txt,St. Louis Post-Dispatch (Missouri) ,6.301955555555556
-article_30.txt,St. Louis Post-Dispatch (Missouri) ,4.566742857142857
+article_30.txt,New York Observer ,4.566742857142857
 article_300.txt,New York Observer ,5.077079069767441
-article_301.txt,Charleston Gazette-Mail ,6.023644444444445
-article_302.txt,Charleston Gazette-Mail ,5.794933333333333
-article_303.txt,Charleston Gazette-Mail ,6.109066666666667
-article_304.txt,Charleston Gazette-Mail ,6.355563636363636
-article_305.txt,Charleston Gazette-Mail ,5.990971428571429
-article_306.txt,Charleston Gazette-Mail ,5.7709600000000005
-article_307.txt,Charleston Gazette-Mail ,6.990057142857143
-article_308.txt,Charleston Gazette-Mail ,5.27992
-article_309.txt,Charleston Gazette-Mail ,5.898023529411764
+article_301.txt,New York Observer ,6.023644444444445
+article_302.txt,New York Observer ,5.794933333333333
+article_303.txt,New York Observer ,6.109066666666667
+article_304.txt,New York Observer ,6.355563636363636
+article_305.txt,New York Observer ,5.990971428571429
+article_306.txt,New York Observer ,5.7709600000000005
+article_307.txt,New York Observer ,6.990057142857143
+article_308.txt,New York Observer ,5.27992
+article_309.txt,St. Louis Post-Dispatch (Missouri) ,5.898023529411764
 article_31.txt,St. Louis Post-Dispatch (Missouri) ,5.3784
-article_310.txt,Charleston Gazette-Mail ,5.111365517241379
+article_310.txt,New York Observer ,5.111365517241379
 article_311.txt,Charleston Gazette-Mail ,6.4707333333333334
 article_312.txt,Charleston Gazette-Mail ,5.150902325581395
 article_313.txt,Charleston Gazette-Mail ,6.522399999999999
@@ -242,17 +242,17 @@ article_324.txt,Charleston Gazette-Mail ,6.057104761904762
 article_325.txt,Charleston Gazette-Mail ,5.315466666666667
 article_326.txt,Charleston Gazette-Mail ,5.6544
 article_327.txt,Charleston Gazette-Mail ,5.982021052631579
-article_328.txt,USA TODAY ,5.225714285714286
-article_329.txt,USA TODAY ,5.551066666666666
+article_328.txt,Charleston Gazette-Mail ,5.225714285714286
+article_329.txt,Charleston Gazette-Mail ,5.551066666666666
 article_33.txt,St. Louis Post-Dispatch (Missouri) ,5.120373333333333
-article_330.txt,USA TODAY ,5.01952
-article_331.txt,USA TODAY ,6.890266666666666
-article_332.txt,USA TODAY ,4.825557894736842
-article_333.txt,USA TODAY ,5.497333333333334
-article_334.txt,USA TODAY ,6.2744
-article_335.txt,USA TODAY ,4.5756
-article_336.txt,USA TODAY ,4.930948571428571
-article_337.txt,USA TODAY ,5.179779310344827
+article_330.txt,Charleston Gazette-Mail ,5.01952
+article_331.txt,Charleston Gazette-Mail ,6.890266666666666
+article_332.txt,Charleston Gazette-Mail ,4.825557894736842
+article_333.txt,Charleston Gazette-Mail ,5.497333333333334
+article_334.txt,Charleston Gazette-Mail ,6.2744
+article_335.txt,Charleston Gazette-Mail ,4.5756
+article_336.txt,Charleston Gazette-Mail ,4.930948571428571
+article_337.txt,Charleston Gazette-Mail ,5.179779310344827
 article_338.txt,USA TODAY ,5.190041379310345
 article_339.txt,USA TODAY ,5.820914285714286
 article_34.txt,St. Louis Post-Dispatch (Missouri) ,5.438830769230769
@@ -280,37 +280,37 @@ article_359.txt,USA TODAY ,6.690276923076923
 article_36.txt,St. Louis Post-Dispatch (Missouri) ,5.6296
 article_360.txt,USA TODAY ,6.233066666666666
 article_361.txt,USA TODAY ,5.0638499999999995
-article_362.txt,"New Orleans City Business (New Orleans, LA) ",5.0131428571428565
-article_363.txt,Long Island Business News (New York) ,6.0225846153846145
-article_365.txt,,6.1326857142857145
-article_366.txt,,4.978249056603773
-article_367.txt,,4.855076923076923
-article_368.txt,,5.5887529411764705
-article_369.txt,,6.14048
-article_37.txt,St. Louis Post-Dispatch (Missouri) ,5.949244444444444
-article_370.txt,,4.835999999999999
-article_371.txt,,5.4807999999999995
-article_372.txt,,5.6048
-article_373.txt,,5.737066666666666
-article_374.txt,,5.469777777777778
-article_375.txt,,5.497333333333334
-article_376.txt,Dayton Daily News (Ohio) ,5.05176
-article_377.txt,Dayton Daily News (Ohio) ,5.157691428571428
-article_378.txt,Dayton Daily News (Ohio) ,5.36176
-article_379.txt,Dayton Daily News (Ohio) ,5.672436363636363
-article_38.txt,St. Louis Post-Dispatch (Missouri) ,6.4356
-article_380.txt,Dayton Daily News (Ohio) ,5.091085714285714
-article_381.txt,Dayton Daily News (Ohio) ,5.050063157894737
-article_382.txt,Dayton Daily News (Ohio) ,6.12064
-article_383.txt,Dayton Daily News (Ohio) ,5.6854
-article_384.txt,Dayton Daily News (Ohio) ,5.466211764705882
-article_385.txt,Dayton Daily News (Ohio) ,5.341383783783783
-article_386.txt,Dayton Daily News (Ohio) ,6.9688
+article_362.txt,USA TODAY ,5.0131428571428565
+article_363.txt,USA TODAY ,6.0225846153846145
+article_365.txt,USA TODAY ,6.1326857142857145
+article_366.txt,USA TODAY ,4.978249056603773
+article_367.txt,USA TODAY ,4.855076923076923
+article_368.txt,USA TODAY ,5.5887529411764705
+article_369.txt,USA TODAY ,6.14048
+article_37.txt,USA TODAY ,5.949244444444444
+article_370.txt,St. Louis Post-Dispatch (Missouri) ,4.835999999999999
+article_371.txt,USA TODAY ,5.4807999999999995
+article_372.txt,USA TODAY ,5.6048
+article_373.txt,"New Orleans City Business (New Orleans, LA) ",5.737066666666666
+article_374.txt,Long Island Business News (New York) ,5.469777777777778
+article_375.txt,"The Daily Record (Baltimore, MD) ",5.497333333333334
+article_376.txt,,5.05176
+article_377.txt,,5.157691428571428
+article_378.txt,,5.36176
+article_379.txt,,5.672436363636363
+article_38.txt,,6.4356
+article_380.txt,St. Louis Post-Dispatch (Missouri) ,5.091085714285714
+article_381.txt,,5.050063157894737
+article_382.txt,,6.12064
+article_383.txt,,5.6854
+article_384.txt,,5.466211764705882
+article_385.txt,,5.341383783783783
+article_386.txt,,6.9688
 article_387.txt,Dayton Daily News (Ohio) ,5.475288888888889
 article_388.txt,Dayton Daily News (Ohio) ,6.315733333333333
 article_389.txt,Dayton Daily News (Ohio) ,5.387435294117647
-article_39.txt,St. Louis Post-Dispatch (Missouri) ,5.9382222222222225
-article_390.txt,Dayton Daily News (Ohio) ,5.210917647058823
+article_39.txt,Dayton Daily News (Ohio) ,5.9382222222222225
+article_390.txt,St. Louis Post-Dispatch (Missouri) ,5.210917647058823
 article_391.txt,Dayton Daily News (Ohio) ,6.2744
 article_392.txt,Dayton Daily News (Ohio) ,4.991199999999999
 article_393.txt,Dayton Daily News (Ohio) ,4.9213119999999995
@@ -320,7 +320,7 @@ article_396.txt,Dayton Daily News (Ohio) ,5.291585185185185
 article_397.txt,Dayton Daily News (Ohio) ,6.324
 article_398.txt,Dayton Daily News (Ohio) ,7.288444444444444
 article_399.txt,Dayton Daily News (Ohio) ,5.2943039999999995
-article_4.txt,St. Louis Post-Dispatch (Missouri) ,6.338171428571428
+article_4.txt,Dayton Daily News (Ohio) ,6.338171428571428
 article_40.txt,St. Louis Post-Dispatch (Missouri) ,7.3656
 article_400.txt,Dayton Daily News (Ohio) ,5.611563636363636
 article_401.txt,Dayton Daily News (Ohio) ,6.015617391304348
@@ -333,7 +333,7 @@ article_407.txt,Dayton Daily News (Ohio) ,5.392622222222222
 article_408.txt,Dayton Daily News (Ohio) ,5.556055172413792
 article_409.txt,Dayton Daily News (Ohio) ,6.320693333333333
 article_41.txt,St. Louis Post-Dispatch (Missouri) ,6.6091999999999995
-article_410.txt,Dayton Daily News (Ohio) ,5.125048275862069
+article_410.txt,St. Louis Post-Dispatch (Missouri) ,5.125048275862069
 article_411.txt,Dayton Daily News (Ohio) ,5.372299999999999
 article_412.txt,Dayton Daily News (Ohio) ,5.905155555555556
 article_413.txt,Dayton Daily News (Ohio) ,5.754592000000001
@@ -343,8 +343,8 @@ article_416.txt,Dayton Daily News (Ohio) ,5.864660869565217
 article_417.txt,Dayton Daily News (Ohio) ,5.404941176470588
 article_418.txt,Dayton Daily News (Ohio) ,5.9272
 article_419.txt,Dayton Daily News (Ohio) ,5.124581818181818
-article_42.txt,Los Angeles Times ,5.434874074074074
-article_420.txt,Dayton Daily News (Ohio) ,5.484474074074074
+article_42.txt,Dayton Daily News (Ohio) ,5.434874074074074
+article_420.txt,St. Louis Post-Dispatch (Missouri) ,5.484474074074074
 article_421.txt,Dayton Daily News (Ohio) ,5.969714285714286
 article_422.txt,Dayton Daily News (Ohio) ,5.34192
 article_423.txt,Dayton Daily News (Ohio) ,6.129142857142857
@@ -354,30 +354,30 @@ article_426.txt,Dayton Daily News (Ohio) ,5.359555555555556
 article_427.txt,Dayton Daily News (Ohio) ,5.691599999999999
 article_428.txt,Dayton Daily News (Ohio) ,5.451866666666666
 article_429.txt,Dayton Daily News (Ohio) ,5.9272
-article_43.txt,Los Angeles Times ,5.805955555555556
-article_430.txt,Dayton Daily News (Ohio) ,6.129415384615385
+article_43.txt,Dayton Daily News (Ohio) ,5.805955555555556
+article_430.txt,Los Angeles Times ,6.129415384615385
 article_431.txt,Dayton Daily News (Ohio) ,5.169672727272727
 article_432.txt,Dayton Daily News (Ohio) ,6.042933333333334
 article_433.txt,Dayton Daily News (Ohio) ,6.4666
-article_434.txt,The Hartford Courant ,5.1244148148148145
-article_435.txt,The Hartford Courant ,5.151456
-article_436.txt,The Hartford Courant ,5.726044444444444
-article_437.txt,The Hartford Courant ,6.527911111111111
-article_438.txt,The Hartford Courant ,5.9458
-article_439.txt,The Hartford Courant ,5.7308666666666666
-article_44.txt,St. Louis Post-Dispatch (Missouri) ,9.3992
-article_440.txt,The Hartford Courant ,6.031911111111111
-article_441.txt,The Hartford Courant ,4.793163636363636
-article_442.txt,The Hartford Courant ,4.877015384615384
-article_443.txt,The Hartford Courant ,5.315466666666667
-article_444.txt,The Hartford Courant ,5.899644444444444
+article_434.txt,Dayton Daily News (Ohio) ,5.1244148148148145
+article_435.txt,Dayton Daily News (Ohio) ,5.151456
+article_436.txt,Dayton Daily News (Ohio) ,5.726044444444444
+article_437.txt,Dayton Daily News (Ohio) ,6.527911111111111
+article_438.txt,Dayton Daily News (Ohio) ,5.9458
+article_439.txt,Dayton Daily News (Ohio) ,5.7308666666666666
+article_44.txt,Dayton Daily News (Ohio) ,9.3992
+article_440.txt,Los Angeles Times ,6.031911111111111
+article_441.txt,Dayton Daily News (Ohio) ,4.793163636363636
+article_442.txt,Dayton Daily News (Ohio) ,4.877015384615384
+article_443.txt,Dayton Daily News (Ohio) ,5.315466666666667
+article_444.txt,Dayton Daily News (Ohio) ,5.899644444444444
 article_445.txt,The Hartford Courant ,4.960349295774648
 article_446.txt,The Hartford Courant ,5.225169230769231
 article_447.txt,The Hartford Courant ,5.303965217391304
 article_448.txt,The Hartford Courant ,5.7133
 article_449.txt,The Hartford Courant ,5.48576
-article_45.txt,St. Louis Post-Dispatch (Missouri) ,6.438079999999999
-article_450.txt,The Hartford Courant ,5.447733333333333
+article_45.txt,The Hartford Courant ,6.438079999999999
+article_450.txt,St. Louis Post-Dispatch (Missouri) ,5.447733333333333
 article_451.txt,The Hartford Courant ,5.256608
 article_452.txt,The Hartford Courant ,5.34688
 article_453.txt,The Hartford Courant ,7.046742857142856
@@ -387,36 +387,36 @@ article_456.txt,The Hartford Courant ,7.9497777777777765
 article_457.txt,The Hartford Courant ,5.472533333333333
 article_458.txt,The Hartford Courant ,5.954755555555556
 article_459.txt,The Hartford Courant ,6.0698
-article_46.txt,St. Louis Post-Dispatch (Missouri) ,6.1851199999999995
-article_460.txt,The Hartford Courant ,5.306121739130434
+article_46.txt,The Hartford Courant ,6.1851199999999995
+article_460.txt,St. Louis Post-Dispatch (Missouri) ,5.306121739130434
 article_461.txt,The Hartford Courant ,6.0698
-article_462.txt,The Baltimore Sun ,5.210755555555555
-article_463.txt,The Baltimore Sun ,5.634821052631579
-article_464.txt,The Baltimore Sun ,5.9458
-article_465.txt,The Baltimore Sun ,6.301454545454545
-article_466.txt,The Baltimore Sun ,7.3842
-article_467.txt,The Baltimore Sun ,5.589185185185185
-article_468.txt,The Baltimore Sun ,5.46592
-article_469.txt,The Baltimore Sun ,5.647636363636364
-article_47.txt,St. Louis Post-Dispatch (Missouri) ,5.419390476190475
-article_470.txt,The Baltimore Sun ,5.12351186440678
-article_471.txt,The Baltimore Sun ,5.320977777777777
-article_472.txt,The Baltimore Sun ,6.1876
+article_462.txt,The Hartford Courant ,5.210755555555555
+article_463.txt,The Hartford Courant ,5.634821052631579
+article_464.txt,The Hartford Courant ,5.9458
+article_465.txt,The Hartford Courant ,6.301454545454545
+article_466.txt,The Hartford Courant ,7.3842
+article_467.txt,The Hartford Courant ,5.589185185185185
+article_468.txt,The Hartford Courant ,5.46592
+article_469.txt,The Hartford Courant ,5.647636363636364
+article_47.txt,The Hartford Courant ,5.419390476190475
+article_470.txt,St. Louis Post-Dispatch (Missouri) ,5.12351186440678
+article_471.txt,The Hartford Courant ,5.320977777777777
+article_472.txt,The Hartford Courant ,6.1876
 article_473.txt,The Baltimore Sun ,5.025542857142857
 article_474.txt,The Baltimore Sun ,5.304945454545454
 article_475.txt,The Baltimore Sun ,5.6296
-article_476.txt,St. Louis Post-Dispatch (Missouri) ,5.1335999999999995
-article_477.txt,St. Louis Post-Dispatch (Missouri) ,5.6792
-article_478.txt,St. Louis Post-Dispatch (Missouri) ,5.596533333333333
-article_479.txt,St. Louis Post-Dispatch (Missouri) ,4.9583466666666665
-article_48.txt,St. Louis Post-Dispatch (Missouri) ,5.505599999999999
+article_476.txt,The Baltimore Sun ,5.1335999999999995
+article_477.txt,The Baltimore Sun ,5.6792
+article_478.txt,The Baltimore Sun ,5.596533333333333
+article_479.txt,The Baltimore Sun ,4.9583466666666665
+article_48.txt,The Baltimore Sun ,5.505599999999999
 article_480.txt,St. Louis Post-Dispatch (Missouri) ,6.297292307692308
-article_481.txt,St. Louis Post-Dispatch (Missouri) ,5.222017391304348
-article_482.txt,St. Louis Post-Dispatch (Missouri) ,5.49917037037037
-article_483.txt,St. Louis Post-Dispatch (Missouri) ,5.41632
-article_484.txt,St. Louis Post-Dispatch (Missouri) ,6.4613538461538464
-article_485.txt,St. Louis Post-Dispatch (Missouri) ,6.810079999999999
-article_486.txt,St. Louis Post-Dispatch (Missouri) ,6.282666666666667
+article_481.txt,The Baltimore Sun ,5.222017391304348
+article_482.txt,The Baltimore Sun ,5.49917037037037
+article_483.txt,The Baltimore Sun ,5.41632
+article_484.txt,The Baltimore Sun ,6.4613538461538464
+article_485.txt,The Baltimore Sun ,6.810079999999999
+article_486.txt,The Baltimore Sun ,6.282666666666667
 article_487.txt,St. Louis Post-Dispatch (Missouri) ,5.4839
 article_488.txt,St. Louis Post-Dispatch (Missouri) ,5.3072
 article_489.txt,St. Louis Post-Dispatch (Missouri) ,5.4467
@@ -443,9 +443,9 @@ article_506.txt,St. Louis Post-Dispatch (Missouri) ,6.4356
 article_507.txt,St. Louis Post-Dispatch (Missouri) ,5.9382222222222225
 article_508.txt,St. Louis Post-Dispatch (Missouri) ,7.3656
 article_509.txt,St. Louis Post-Dispatch (Missouri) ,6.6091999999999995
-article_51.txt,bondbuyer.com ,5.05424
-article_510.txt,Los Angeles Times ,5.805955555555556
-article_511.txt,Los Angeles Times ,5.912611764705883
+article_51.txt,St. Louis Post-Dispatch (Missouri) ,5.05424
+article_510.txt,St. Louis Post-Dispatch (Missouri) ,5.805955555555556
+article_511.txt,St. Louis Post-Dispatch (Missouri) ,5.912611764705883
 article_512.txt,St. Louis Post-Dispatch (Missouri) ,9.3992
 article_513.txt,St. Louis Post-Dispatch (Missouri) ,6.438079999999999
 article_514.txt,St. Louis Post-Dispatch (Missouri) ,6.1851199999999995
@@ -453,164 +453,164 @@ article_515.txt,St. Louis Post-Dispatch (Missouri) ,5.419390476190475
 article_516.txt,St. Louis Post-Dispatch (Missouri) ,5.505599999999999
 article_517.txt,St. Louis Post-Dispatch (Missouri) ,5.770769230769231
 article_518.txt,St. Louis Post-Dispatch (Missouri) ,11.234399999999999
-article_519.txt,The Bond Buyer ,5.05424
-article_52.txt,The Bond Buyer ,5.813828571428571
-article_520.txt,American Banker ,5.502057142857143
-article_521.txt,National Underwriter Life & Health/Financial Services ,5.692977777777777
-article_522.txt,National Underwriter Life & Health/Financial Services ,5.2010559999999995
-article_523.txt,BenefitsPro ,5.414666666666666
-article_524.txt,The Salt Lake Tribune ,5.295259259259259
-article_525.txt,The Salt Lake Tribune ,6.283418181818181
-article_526.txt,The Salt Lake Tribune ,4.925025641025641
-article_527.txt,The Salt Lake Tribune ,5.4559999999999995
-article_528.txt,The Salt Lake Tribune ,5.2824
-article_529.txt,The Salt Lake Tribune ,5.335306666666667
+article_519.txt,St. Louis Post-Dispatch (Missouri) ,5.05424
+article_52.txt,St. Louis Post-Dispatch (Missouri) ,5.813828571428571
+article_520.txt,bondbuyer.com ,5.502057142857143
+article_521.txt,Los Angeles Times ,5.692977777777777
+article_522.txt,Los Angeles Times ,5.2010559999999995
+article_523.txt,St. Louis Post-Dispatch (Missouri) ,5.414666666666666
+article_524.txt,St. Louis Post-Dispatch (Missouri) ,5.295259259259259
+article_525.txt,St. Louis Post-Dispatch (Missouri) ,6.283418181818181
+article_526.txt,St. Louis Post-Dispatch (Missouri) ,4.925025641025641
+article_527.txt,St. Louis Post-Dispatch (Missouri) ,5.4559999999999995
+article_528.txt,St. Louis Post-Dispatch (Missouri) ,5.2824
+article_529.txt,St. Louis Post-Dispatch (Missouri) ,5.335306666666667
 article_53.txt,The Bond Buyer ,5.05424
-article_530.txt,The Salt Lake Tribune ,5.965777777777777
-article_531.txt,The Salt Lake Tribune ,5.863822222222222
-article_532.txt,The Salt Lake Tribune ,5.3877999999999995
-article_533.txt,The Salt Lake Tribune ,5.162675862068966
-article_534.txt,The Salt Lake Tribune ,5.686285714285715
+article_530.txt,The Bond Buyer ,5.965777777777777
+article_531.txt,American Banker ,5.863822222222222
+article_532.txt,National Underwriter Life & Health/Financial Services ,5.3877999999999995
+article_533.txt,National Underwriter Life & Health/Financial Services ,5.162675862068966
+article_534.txt,BenefitsPro ,5.686285714285715
 article_535.txt,The Salt Lake Tribune ,5.8627199999999995
 article_536.txt,The Salt Lake Tribune ,5.512685714285714
 article_537.txt,The Salt Lake Tribune ,5.428444444444445
 article_538.txt,The Salt Lake Tribune ,5.436421052631578
 article_539.txt,The Salt Lake Tribune ,4.9269333333333325
-article_54.txt,American Banker ,5.502057142857143
-article_540.txt,"The Columbian (Vancouver, Washington) ",4.976533333333333
-article_541.txt,"The Columbian (Vancouver, Washington) ",6.355563636363636
-article_542.txt,"The Columbian (Vancouver, Washington) ",5.460376470588235
-article_543.txt,"The Columbian (Vancouver, Washington) ",5.656879999999999
-article_544.txt,"The Columbian (Vancouver, Washington) ",5.563466666666667
-article_545.txt,"The Columbian (Vancouver, Washington) ",5.250836363636363
-article_546.txt,The Forward ,5.062117647058823
-article_547.txt,The Forward ,6.359428571428571
-article_548.txt,The Forward ,6.491695238095238
-article_549.txt,Austin American-Statesman (Texas) ,4.988106666666667
-article_55.txt,Property Casualty 360 - National Underwriter ,5.1335999999999995
-article_550.txt,Austin American-Statesman (Texas) ,5.612094117647059
-article_552.txt,"LNP (Lancaster, PA) ",5.509515789473684
-article_553.txt,"LNP (Lancaster, PA) ",5.427232
-article_554.txt,"LNP (Lancaster, PA) ",4.97716923076923
-article_555.txt,"LNP (Lancaster, PA) ",5.295927272727273
-article_556.txt,"LNP (Lancaster, PA) ",6.179709090909091
-article_557.txt,"LNP (Lancaster, PA) ",6.518266666666666
-article_558.txt,"LNP (Lancaster, PA) ",8.198879999999999
-article_559.txt,Whittier Daily News (California) ,5.254624
-article_56.txt,National Underwriter Life & Health/Financial Services ,5.692977777777777
-article_560.txt,Whittier Daily News (California) ,5.27
-article_561.txt,Whittier Daily News (California) ,5.732615384615384
-article_562.txt,Whittier Daily News (California) ,5.6171999999999995
-article_563.txt,Whittier Daily News (California) ,5.8962
-article_564.txt,Whittier Daily News (California) ,5.695733333333333
-article_565.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",9.994399999999999
-article_566.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.539585185185185
-article_567.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.963022222222222
-article_568.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",7.125866666666667
-article_569.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.288448780487805
-article_57.txt,National Underwriter Life & Health/Financial Services ,5.2010559999999995
-article_570.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.68912
-article_571.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.378057142857143
-article_572.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.6296
-article_573.txt,The Lebanon Daily News (Pennsylvania) ,5.6874666666666664
-article_574.txt,The Lebanon Daily News (Pennsylvania) ,6.138
-article_575.txt,The Lebanon Daily News (Pennsylvania) ,5.60976
-article_576.txt,The Lebanon Daily News (Pennsylvania) ,6.138
-article_577.txt,The Lebanon Daily News (Pennsylvania) ,6.138
-article_578.txt,The Lebanon Daily News (Pennsylvania) ,5.185955555555555
-article_579.txt,Lowell Sun (Massachusetts) ,9.994399999999999
-article_58.txt,BenefitsPro ,5.414666666666666
-article_580.txt,Lowell Sun (Massachusetts) ,6.1139294117647065
-article_581.txt,Lowell Sun (Massachusetts) ,5.116496551724138
-article_582.txt,Lowell Sun (Massachusetts) ,4.948426666666666
-article_583.txt,Lowell Sun (Massachusetts) ,5.780654545454546
-article_584.txt,Lowell Sun (Massachusetts) ,7.1175999999999995
-article_585.txt,Lowell Sun (Massachusetts) ,7.845066666666666
-article_586.txt,Lowell Sun (Massachusetts) ,5.986183783783783
-article_587.txt,Lowell Sun (Massachusetts) ,5.88752
-article_588.txt,Lowell Sun (Massachusetts) ,5.537485714285714
-article_589.txt,Lowell Sun (Massachusetts) ,5.723578947368421
-article_59.txt,The Salt Lake Tribune ,4.925025641025641
+article_54.txt,The Salt Lake Tribune ,5.502057142857143
+article_540.txt,The Bond Buyer ,4.976533333333333
+article_541.txt,The Salt Lake Tribune ,6.355563636363636
+article_542.txt,The Salt Lake Tribune ,5.460376470588235
+article_543.txt,The Salt Lake Tribune ,5.656879999999999
+article_544.txt,The Salt Lake Tribune ,5.563466666666667
+article_545.txt,The Salt Lake Tribune ,5.250836363636363
+article_546.txt,The Salt Lake Tribune ,5.062117647058823
+article_547.txt,The Salt Lake Tribune ,6.359428571428571
+article_548.txt,The Salt Lake Tribune ,6.491695238095238
+article_549.txt,The Salt Lake Tribune ,4.988106666666667
+article_55.txt,The Salt Lake Tribune ,5.1335999999999995
+article_550.txt,American Banker ,5.612094117647059
+article_552.txt,"The Columbian (Vancouver, Washington) ",5.509515789473684
+article_553.txt,"The Columbian (Vancouver, Washington) ",5.427232
+article_554.txt,"The Columbian (Vancouver, Washington) ",4.97716923076923
+article_555.txt,"The Columbian (Vancouver, Washington) ",5.295927272727273
+article_556.txt,"The Columbian (Vancouver, Washington) ",6.179709090909091
+article_557.txt,"The Columbian (Vancouver, Washington) ",6.518266666666666
+article_558.txt,The Forward ,8.198879999999999
+article_559.txt,The Forward ,5.254624
+article_56.txt,The Forward ,5.692977777777777
+article_560.txt,Austin American-Statesman (Texas) ,5.27
+article_561.txt,Property Casualty 360 - National Underwriter ,5.732615384615384
+article_562.txt,Austin American-Statesman (Texas) ,5.6171999999999995
+article_563.txt,Austin American-Statesman (Texas) ,5.8962
+article_564.txt,"LNP (Lancaster, PA) ",5.695733333333333
+article_565.txt,"LNP (Lancaster, PA) ",9.994399999999999
+article_566.txt,"LNP (Lancaster, PA) ",5.539585185185185
+article_567.txt,"LNP (Lancaster, PA) ",5.963022222222222
+article_568.txt,"LNP (Lancaster, PA) ",7.125866666666667
+article_569.txt,"LNP (Lancaster, PA) ",5.288448780487805
+article_57.txt,"LNP (Lancaster, PA) ",5.2010559999999995
+article_570.txt,Whittier Daily News (California) ,5.68912
+article_571.txt,National Underwriter Life & Health/Financial Services ,5.378057142857143
+article_572.txt,Whittier Daily News (California) ,5.6296
+article_573.txt,Whittier Daily News (California) ,5.6874666666666664
+article_574.txt,Whittier Daily News (California) ,6.138
+article_575.txt,Whittier Daily News (California) ,5.60976
+article_576.txt,Whittier Daily News (California) ,6.138
+article_577.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",6.138
+article_578.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.185955555555555
+article_579.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",9.994399999999999
+article_58.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.414666666666666
+article_580.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",6.1139294117647065
+article_581.txt,National Underwriter Life & Health/Financial Services ,5.116496551724138
+article_582.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",4.948426666666666
+article_583.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",5.780654545454546
+article_584.txt,"Sentinel & Enterprise (Fitchburg, Massachusetts) ",7.1175999999999995
+article_585.txt,The Lebanon Daily News (Pennsylvania) ,7.845066666666666
+article_586.txt,The Lebanon Daily News (Pennsylvania) ,5.986183783783783
+article_587.txt,The Lebanon Daily News (Pennsylvania) ,5.88752
+article_588.txt,The Lebanon Daily News (Pennsylvania) ,5.537485714285714
+article_589.txt,The Lebanon Daily News (Pennsylvania) ,5.723578947368421
+article_59.txt,The Lebanon Daily News (Pennsylvania) ,4.925025641025641
 article_590.txt,Lowell Sun (Massachusetts) ,5.833835294117646
-article_591.txt,Lowell Sun (Massachusetts) ,6.1442
+article_591.txt,BenefitsPro ,6.1442
 article_592.txt,Lowell Sun (Massachusetts) ,5.39035294117647
 article_593.txt,Lowell Sun (Massachusetts) ,6.6003428571428575
 article_594.txt,Lowell Sun (Massachusetts) ,5.6296
-article_595.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.42872
-article_596.txt,"The Evening Sun (Hanover, Pennsylvania) ",6.3302
-article_597.txt,"The Evening Sun (Hanover, Pennsylvania) ",11.3336
-article_598.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.27364705882353
-article_599.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.407858823529412
-article_6.txt,St. Louis Post-Dispatch (Missouri) ,5.02676923076923
-article_60.txt,The Salt Lake Tribune ,5.527482352941176
-article_600.txt,San Gabriel Valley Tribune (California) ,5.953907692307692
-article_601.txt,San Gabriel Valley Tribune (California) ,5.803804878048781
-article_602.txt,San Gabriel Valley Tribune (California) ,5.81808
-article_603.txt,San Gabriel Valley Tribune (California) ,5.388441379310345
-article_604.txt,San Gabriel Valley Tribune (California) ,5.374986666666667
-article_605.txt,San Gabriel Valley Tribune (California) ,5.254624
-article_606.txt,San Gabriel Valley Tribune (California) ,5.3014769230769225
-article_607.txt,San Gabriel Valley Tribune (California) ,5.434742857142856
-article_608.txt,San Gabriel Valley Tribune (California) ,5.427384615384615
-article_609.txt,San Gabriel Valley Tribune (California) ,5.734523076923077
-article_61.txt,The Salt Lake Tribune ,5.8032
-article_610.txt,San Gabriel Valley Tribune (California) ,5.441828571428571
-article_611.txt,San Gabriel Valley Tribune (California) ,5.6626666666666665
+article_595.txt,Lowell Sun (Massachusetts) ,5.42872
+article_596.txt,Lowell Sun (Massachusetts) ,6.3302
+article_597.txt,Lowell Sun (Massachusetts) ,11.3336
+article_598.txt,Lowell Sun (Massachusetts) ,5.27364705882353
+article_599.txt,Lowell Sun (Massachusetts) ,5.407858823529412
+article_6.txt,Lowell Sun (Massachusetts) ,5.02676923076923
+article_60.txt,Lowell Sun (Massachusetts) ,5.527482352941176
+article_600.txt,The Salt Lake Tribune ,5.953907692307692
+article_601.txt,Lowell Sun (Massachusetts) ,5.803804878048781
+article_602.txt,Lowell Sun (Massachusetts) ,5.81808
+article_603.txt,Lowell Sun (Massachusetts) ,5.388441379310345
+article_604.txt,Lowell Sun (Massachusetts) ,5.374986666666667
+article_605.txt,Lowell Sun (Massachusetts) ,5.254624
+article_606.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.3014769230769225
+article_607.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.434742857142856
+article_608.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.427384615384615
+article_609.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.734523076923077
+article_61.txt,"The Evening Sun (Hanover, Pennsylvania) ",5.8032
+article_610.txt,St. Louis Post-Dispatch (Missouri) ,5.441828571428571
+article_611.txt,The Salt Lake Tribune ,5.6626666666666665
 article_612.txt,San Gabriel Valley Tribune (California) ,5.8962
 article_613.txt,San Gabriel Valley Tribune (California) ,5.6171999999999995
 article_614.txt,San Gabriel Valley Tribune (California) ,5.8962
 article_615.txt,San Gabriel Valley Tribune (California) ,6.170690909090909
 article_616.txt,San Gabriel Valley Tribune (California) ,6.136228571428571
-article_617.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.953907692307692
-article_618.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.803804878048781
-article_619.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.81808
-article_62.txt,The Salt Lake Tribune ,4.753969230769231
-article_620.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.379889655172414
-article_621.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.291938461538461
-article_622.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.417028571428571
-article_623.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.668177777777778
-article_624.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.564738461538461
-article_625.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.422014814814815
-article_626.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.650857142857143
-article_627.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.8962
-article_628.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.719261538461538
+article_617.txt,San Gabriel Valley Tribune (California) ,5.953907692307692
+article_618.txt,San Gabriel Valley Tribune (California) ,5.803804878048781
+article_619.txt,San Gabriel Valley Tribune (California) ,5.81808
+article_62.txt,San Gabriel Valley Tribune (California) ,4.753969230769231
+article_620.txt,San Gabriel Valley Tribune (California) ,5.379889655172414
+article_621.txt,The Salt Lake Tribune ,5.291938461538461
+article_622.txt,San Gabriel Valley Tribune (California) ,5.417028571428571
+article_623.txt,San Gabriel Valley Tribune (California) ,5.668177777777778
+article_624.txt,San Gabriel Valley Tribune (California) ,5.564738461538461
+article_625.txt,San Gabriel Valley Tribune (California) ,5.422014814814815
+article_626.txt,San Gabriel Valley Tribune (California) ,5.650857142857143
+article_627.txt,San Gabriel Valley Tribune (California) ,5.8962
+article_628.txt,San Gabriel Valley Tribune (California) ,5.719261538461538
 article_629.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.951081481481481
-article_63.txt,The Salt Lake Tribune ,5.421661538461538
-article_630.txt,San Bernardino Sun (California) ,5.803804878048781
-article_631.txt,San Bernardino Sun (California) ,5.81808
-article_632.txt,San Bernardino Sun (California) ,5.328693333333333
-article_633.txt,San Bernardino Sun (California) ,5.177364705882352
-article_634.txt,San Bernardino Sun (California) ,5.254624
-article_635.txt,San Bernardino Sun (California) ,5.3121599999999995
-article_636.txt,San Bernardino Sun (California) ,4.841424999999999
-article_637.txt,San Bernardino Sun (California) ,5.378179310344827
-article_638.txt,San Bernardino Sun (California) ,5.568727272727273
-article_639.txt,San Bernardino Sun (California) ,5.8962
-article_64.txt,The Salt Lake Tribune ,6.684727272727272
-article_640.txt,San Bernardino Sun (California) ,6.045688888888888
-article_641.txt,San Bernardino Sun (California) ,4.898
-article_642.txt,The New York Times ,5.510109090909091
-article_643.txt,The New York Times ,5.060327272727273
-article_644.txt,The New York Times ,5.1889674418604645
-article_645.txt,The New York Times ,5.183199999999999
-article_646.txt,The New York Times ,4.916056140350877
-article_647.txt,The New York Times ,5.11996
-article_648.txt,The New York Times ,5.241818181818182
-article_649.txt,The New York Times ,5.209653333333334
-article_65.txt,The Salt Lake Tribune ,5.971288888888889
-article_650.txt,The New York Times ,5.123921951219512
-article_651.txt,The New York Times ,5.232799999999999
-article_652.txt,The New York Times ,6.0529714285714284
-article_654.txt,The New York Times ,5.374052173913043
+article_63.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.421661538461538
+article_630.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.803804878048781
+article_631.txt,The Salt Lake Tribune ,5.81808
+article_632.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.328693333333333
+article_633.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.177364705882352
+article_634.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.254624
+article_635.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.3121599999999995
+article_636.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",4.841424999999999
+article_637.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.378179310344827
+article_638.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.568727272727273
+article_639.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",5.8962
+article_64.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",6.684727272727272
+article_640.txt,"Inland Valley Daily Bulletin (Ontario, CA) ",6.045688888888888
+article_641.txt,The Salt Lake Tribune ,4.898
+article_642.txt,San Bernardino Sun (California) ,5.510109090909091
+article_643.txt,San Bernardino Sun (California) ,5.060327272727273
+article_644.txt,San Bernardino Sun (California) ,5.1889674418604645
+article_645.txt,San Bernardino Sun (California) ,5.183199999999999
+article_646.txt,San Bernardino Sun (California) ,4.916056140350877
+article_647.txt,San Bernardino Sun (California) ,5.11996
+article_648.txt,San Bernardino Sun (California) ,5.241818181818182
+article_649.txt,San Bernardino Sun (California) ,5.209653333333334
+article_65.txt,San Bernardino Sun (California) ,5.971288888888889
+article_650.txt,San Bernardino Sun (California) ,5.123921951219512
+article_651.txt,The Salt Lake Tribune ,5.232799999999999
+article_652.txt,San Bernardino Sun (California) ,6.0529714285714284
+article_654.txt,San Bernardino Sun (California) ,5.374052173913043
 article_655.txt,The New York Times ,5.782909090909091
 article_656.txt,The New York Times ,4.919079999999999
 article_657.txt,The New York Times ,4.7863999999999995
 article_658.txt,The New York Times ,5.556505263157894
 article_659.txt,The New York Times ,5.674948571428571
-article_66.txt,The Salt Lake Tribune ,4.378577777777778
+article_66.txt,The New York Times ,4.378577777777778
 article_660.txt,The New York Times ,5.2072
 article_661.txt,The New York Times ,5.6264
-article_662.txt,The New York Times ,5.569737931034482
+article_662.txt,The Salt Lake Tribune ,5.569737931034482
 article_663.txt,The New York Times ,5.1432
 article_664.txt,The New York Times ,4.9352
 article_665.txt,The New York Times ,5.096097560975609
@@ -618,10 +618,10 @@ article_666.txt,The New York Times ,5.1325666666666665
 article_667.txt,The New York Times ,5.366854054054054
 article_668.txt,The New York Times ,5.339515151515151
 article_669.txt,The New York Times ,5.664104347826087
-article_67.txt,The Salt Lake Tribune ,5.295259259259259
+article_67.txt,The New York Times ,5.295259259259259
 article_670.txt,The New York Times ,5.2638
 article_671.txt,The New York Times ,4.940514285714285
-article_672.txt,The New York Times ,5.692977777777777
+article_672.txt,The Salt Lake Tribune ,5.692977777777777
 article_673.txt,The New York Times ,5.485309090909091
 article_674.txt,The New York Times ,6.200992
 article_675.txt,The New York Times ,5.51056
@@ -629,109 +629,109 @@ article_676.txt,The New York Times ,4.81616
 article_677.txt,The New York Times ,5.17824
 article_678.txt,The New York Times ,5.129090909090909
 article_679.txt,The New York Times ,5.226964705882352
-article_68.txt,The Salt Lake Tribune ,6.283418181818181
+article_68.txt,The New York Times ,6.283418181818181
 article_680.txt,The New York Times ,5.510991304347826
 article_681.txt,The New York Times ,5.970186666666667
-article_682.txt,The New York Times ,5.316738461538462
+article_682.txt,The Salt Lake Tribune ,5.316738461538462
 article_683.txt,The New York Times ,5.212723809523809
 article_684.txt,The New York Times ,5.908386206896552
 article_686.txt,The New York Times ,5.136699999999999
 article_687.txt,The New York Times ,5.6227586206896545
 article_688.txt,The New York Times ,4.921028571428572
-article_69.txt,The Salt Lake Tribune ,4.925025641025641
+article_69.txt,The New York Times ,4.925025641025641
 article_690.txt,The New York Times ,5.28455652173913
 article_691.txt,The New York Times ,5.565303703703703
 article_692.txt,The New York Times ,5.7436799999999995
 article_693.txt,The New York Times ,5.104884210526316
-article_695.txt,The New York Times ,5.207454945054945
+article_695.txt,The Salt Lake Tribune ,5.207454945054945
 article_696.txt,The New York Times ,5.2576
 article_697.txt,The New York Times ,6.00656
 article_698.txt,The New York Times ,5.514618181818181
 article_699.txt,The New York Times ,5.191090909090908
-article_7.txt,St. Louis Post-Dispatch (Missouri) ,6.3488
-article_70.txt,The Salt Lake Tribune ,5.4559999999999995
+article_7.txt,The New York Times ,6.3488
+article_70.txt,The New York Times ,5.4559999999999995
 article_700.txt,The New York Times ,5.459999999999999
 article_701.txt,The New York Times ,5.414666666666666
 article_702.txt,The New York Times ,5.168611764705882
 article_703.txt,The New York Times ,5.1402133333333335
-article_704.txt,The New York Times ,5.056719999999999
+article_704.txt,The Salt Lake Tribune ,5.056719999999999
 article_706.txt,The New York Times ,4.815015384615384
 article_707.txt,The New York Times ,5.2937666666666665
 article_708.txt,The New York Times ,5.9024
 article_709.txt,The New York Times ,5.606571428571428
-article_71.txt,The Salt Lake Tribune ,5.2824
+article_71.txt,The New York Times ,5.2824
 article_710.txt,The New York Times ,5.395127272727272
 article_711.txt,The New York Times ,5.336133333333333
 article_712.txt,The New York Times ,5.559115789473684
 article_713.txt,The New York Times ,6.418690909090909
 article_714.txt,The New York Times ,5.274356756756756
-article_715.txt,The New York Times ,4.9415589743589745
-article_716.txt,The New York Times ,4.8178769230769225
+article_715.txt,St. Louis Post-Dispatch (Missouri) ,4.9415589743589745
+article_716.txt,The Salt Lake Tribune ,4.8178769230769225
 article_717.txt,The New York Times ,5.267304347826086
 article_718.txt,The New York Times ,5.936057142857143
 article_719.txt,The New York Times ,5.564
-article_72.txt,The Salt Lake Tribune ,5.335306666666667
+article_72.txt,The New York Times ,5.335306666666667
 article_720.txt,The New York Times ,5.765347368421052
 article_721.txt,The New York Times ,5.18568
 article_722.txt,The New York Times ,6.157163636363636
 article_723.txt,The New York Times ,4.941813333333333
-article_724.txt,New York Observer ,5.569217391304347
-article_726.txt,New York Observer ,5.588626086956522
-article_727.txt,New York Observer ,5.4963
-article_728.txt,New York Observer ,6.019786666666667
-article_729.txt,New York Observer ,5.594171428571428
-article_73.txt,The Salt Lake Tribune ,5.965777777777777
-article_731.txt,New York Observer ,5.726044444444444
-article_732.txt,New York Observer ,5.4312
-article_733.txt,New York Observer ,5.4529
-article_734.txt,New York Observer ,5.077079069767441
-article_736.txt,New York Observer ,6.241333333333333
-article_737.txt,New York Observer ,5.527644444444444
-article_738.txt,New York Observer ,5.90984
-article_739.txt,New York Observer ,5.52792
-article_74.txt,The Salt Lake Tribune ,5.863822222222222
-article_740.txt,New York Observer ,5.6093925925925925
-article_742.txt,New York Observer ,5.1312380952380945
-article_743.txt,New York Observer ,5.476666666666667
-article_744.txt,,5.2824
-article_745.txt,,5.570981818181818
-article_746.txt,,6.0512
-article_747.txt,,5.3455272727272725
-article_748.txt,,6.515636363636364
-article_749.txt,,6.1256
+article_724.txt,The New York Times ,5.569217391304347
+article_726.txt,The New York Times ,5.588626086956522
+article_727.txt,The Salt Lake Tribune ,5.4963
+article_728.txt,The New York Times ,6.019786666666667
+article_729.txt,The New York Times ,5.594171428571428
+article_73.txt,The New York Times ,5.965777777777777
+article_731.txt,The New York Times ,5.726044444444444
+article_732.txt,The New York Times ,5.4312
+article_733.txt,The New York Times ,5.4529
+article_734.txt,The New York Times ,5.077079069767441
+article_736.txt,The New York Times ,6.241333333333333
+article_737.txt,The New York Times ,5.527644444444444
+article_738.txt,The New York Times ,5.90984
+article_739.txt,The Salt Lake Tribune ,5.52792
+article_74.txt,The New York Times ,5.863822222222222
+article_740.txt,The New York Times ,5.6093925925925925
+article_742.txt,The New York Times ,5.1312380952380945
+article_743.txt,The New York Times ,5.476666666666667
+article_744.txt,New York Observer ,5.2824
+article_745.txt,New York Observer ,5.570981818181818
+article_746.txt,New York Observer ,6.0512
+article_747.txt,New York Observer ,5.3455272727272725
+article_748.txt,New York Observer ,6.515636363636364
+article_749.txt,New York Observer ,6.1256
 article_75.txt,The Salt Lake Tribune ,5.3877999999999995
-article_750.txt,,5.309184
-article_751.txt,,6.83984
-article_752.txt,,6.5348
-article_753.txt,,5.489066666666666
-article_754.txt,,5.161155555555555
-article_755.txt,,5.470879999999999
-article_756.txt,,5.268228571428571
-article_757.txt,,4.902852173913043
-article_758.txt,,4.787353846153846
-article_759.txt,,5.159255172413793
+article_750.txt,New York Observer ,5.309184
+article_751.txt,New York Observer ,6.83984
+article_752.txt,New York Observer ,6.5348
+article_753.txt,New York Observer ,5.489066666666666
+article_754.txt,New York Observer ,5.161155555555555
+article_755.txt,New York Observer ,5.470879999999999
+article_756.txt,New York Observer ,5.268228571428571
+article_757.txt,New York Observer ,4.902852173913043
+article_758.txt,New York Observer ,4.787353846153846
+article_759.txt,New York Observer ,5.159255172413793
 article_76.txt,The Salt Lake Tribune ,5.162675862068966
-article_760.txt,Charleston Gazette-Mail ,6.109066666666667
-article_761.txt,Charleston Gazette-Mail ,6.355563636363636
-article_762.txt,Charleston Gazette-Mail ,5.990971428571429
-article_763.txt,Charleston Gazette-Mail ,5.7709600000000005
-article_764.txt,Charleston Gazette-Mail ,6.990057142857143
-article_765.txt,Charleston Gazette-Mail ,5.27992
-article_766.txt,Charleston Gazette-Mail ,5.898023529411764
-article_767.txt,Charleston Gazette-Mail ,5.111365517241379
-article_768.txt,Charleston Gazette-Mail ,6.4707333333333334
-article_769.txt,Charleston Gazette-Mail ,5.150902325581395
+article_760.txt,New York Observer ,6.109066666666667
+article_761.txt,New York Observer ,6.355563636363636
+article_762.txt,New York Observer ,5.990971428571429
+article_763.txt,New York Observer ,5.7709600000000005
+article_764.txt,,6.990057142857143
+article_765.txt,,5.27992
+article_766.txt,,5.898023529411764
+article_767.txt,,5.111365517241379
+article_768.txt,,6.4707333333333334
+article_769.txt,,5.150902325581395
 article_77.txt,The Salt Lake Tribune ,5.686285714285715
-article_770.txt,Charleston Gazette-Mail ,6.522399999999999
-article_771.txt,Charleston Gazette-Mail ,6.090171428571429
-article_772.txt,Charleston Gazette-Mail ,5.890000000000001
-article_773.txt,Charleston Gazette-Mail ,6.607428571428571
-article_774.txt,Charleston Gazette-Mail ,5.7697199999999995
-article_775.txt,Charleston Gazette-Mail ,6.0122285714285715
-article_776.txt,Charleston Gazette-Mail ,6.128906666666667
-article_777.txt,Charleston Gazette-Mail ,6.00656
-article_778.txt,Charleston Gazette-Mail ,6.0264
-article_779.txt,Charleston Gazette-Mail ,5.607555555555555
+article_770.txt,,6.522399999999999
+article_771.txt,,6.090171428571429
+article_772.txt,,5.890000000000001
+article_773.txt,,6.607428571428571
+article_774.txt,,5.7697199999999995
+article_775.txt,,6.0122285714285715
+article_776.txt,,6.128906666666667
+article_777.txt,,6.00656
+article_778.txt,,6.0264
+article_779.txt,,5.607555555555555
 article_78.txt,The Salt Lake Tribune ,5.8627199999999995
 article_780.txt,Charleston Gazette-Mail ,5.793661538461539
 article_781.txt,Charleston Gazette-Mail ,6.057104761904762
@@ -739,34 +739,34 @@ article_782.txt,Charleston Gazette-Mail ,5.315466666666667
 article_783.txt,Charleston Gazette-Mail ,5.6544
 article_784.txt,Charleston Gazette-Mail ,5.982021052631579
 article_785.txt,Charleston Gazette-Mail ,5.483555555555555
-article_786.txt,USA TODAY ,6.890266666666666
-article_787.txt,USA TODAY ,4.825557894736842
-article_788.txt,USA TODAY ,5.497333333333334
-article_789.txt,USA TODAY ,6.2744
+article_786.txt,Charleston Gazette-Mail ,6.890266666666666
+article_787.txt,Charleston Gazette-Mail ,4.825557894736842
+article_788.txt,Charleston Gazette-Mail ,5.497333333333334
+article_789.txt,Charleston Gazette-Mail ,6.2744
 article_79.txt,The Salt Lake Tribune ,5.512685714285714
-article_790.txt,USA TODAY ,4.5756
-article_791.txt,USA TODAY ,4.930948571428571
-article_792.txt,USA TODAY ,5.179779310344827
-article_793.txt,USA TODAY ,5.190041379310345
-article_794.txt,USA TODAY ,5.820914285714286
-article_795.txt,USA TODAY ,5.58
-article_796.txt,USA TODAY ,5.365066666666666
-article_797.txt,USA TODAY ,4.950863157894736
-article_798.txt,USA TODAY ,5.6296
-article_799.txt,USA TODAY ,7.0184
-article_8.txt,St. Louis Post-Dispatch (Missouri) ,5.1335999999999995
-article_80.txt,The Salt Lake Tribune ,5.428444444444445
-article_800.txt,USA TODAY ,5.827999999999999
-article_801.txt,USA TODAY ,5.180444444444444
-article_802.txt,USA TODAY ,9.796
-article_803.txt,USA TODAY ,6.1256
-article_804.txt,USA TODAY ,5.759323076923076
+article_790.txt,Charleston Gazette-Mail ,4.5756
+article_791.txt,Charleston Gazette-Mail ,4.930948571428571
+article_792.txt,Charleston Gazette-Mail ,5.179779310344827
+article_793.txt,Charleston Gazette-Mail ,5.190041379310345
+article_794.txt,Charleston Gazette-Mail ,5.820914285714286
+article_795.txt,Charleston Gazette-Mail ,5.58
+article_796.txt,Charleston Gazette-Mail ,5.365066666666666
+article_797.txt,Charleston Gazette-Mail ,4.950863157894736
+article_798.txt,Charleston Gazette-Mail ,5.6296
+article_799.txt,Charleston Gazette-Mail ,7.0184
+article_8.txt,The Salt Lake Tribune ,5.1335999999999995
+article_80.txt,Charleston Gazette-Mail ,5.428444444444445
+article_800.txt,Charleston Gazette-Mail ,5.827999999999999
+article_801.txt,Charleston Gazette-Mail ,5.180444444444444
+article_802.txt,Charleston Gazette-Mail ,9.796
+article_803.txt,Charleston Gazette-Mail ,6.1256
+article_804.txt,Charleston Gazette-Mail ,5.759323076923076
 article_805.txt,USA TODAY ,5.303657142857142
 article_806.txt,USA TODAY ,5.372847058823529
 article_807.txt,USA TODAY ,5.5590153846153845
 article_808.txt,USA TODAY ,5.065186206896551
-article_809.txt,USA TODAY ,5.4436
-article_81.txt,The Salt Lake Tribune ,5.436421052631578
+article_809.txt,The Salt Lake Tribune ,5.4436
+article_81.txt,USA TODAY ,5.436421052631578
 article_810.txt,USA TODAY ,6.365333333333334
 article_811.txt,USA TODAY ,5.2778909090909085
 article_812.txt,USA TODAY ,5.219940740740741
@@ -774,43 +774,43 @@ article_813.txt,USA TODAY ,5.448705882352941
 article_814.txt,USA TODAY ,6.690276923076923
 article_815.txt,USA TODAY ,6.233066666666666
 article_816.txt,USA TODAY ,5.0638499999999995
-article_818.txt,,4.855076923076923
-article_819.txt,,5.5887529411764705
-article_82.txt,"The Columbian (Vancouver, Washington) ",5.22536
-article_820.txt,,6.14048
-article_821.txt,,4.835999999999999
-article_822.txt,,5.4807999999999995
-article_823.txt,,5.6048
-article_824.txt,,5.737066666666666
-article_825.txt,,5.469777777777778
-article_826.txt,,5.497333333333334
-article_827.txt,,6.39344
-article_828.txt,,5.207081481481481
-article_829.txt,Dayton Daily News (Ohio) ,6.12064
-article_83.txt,"The Columbian (Vancouver, Washington) ",4.976533333333333
-article_830.txt,Dayton Daily News (Ohio) ,5.6854
-article_831.txt,Dayton Daily News (Ohio) ,5.466211764705882
-article_832.txt,Dayton Daily News (Ohio) ,5.341383783783783
-article_833.txt,Dayton Daily News (Ohio) ,6.9688
-article_834.txt,Dayton Daily News (Ohio) ,5.475288888888889
-article_835.txt,Dayton Daily News (Ohio) ,6.315733333333333
-article_836.txt,Dayton Daily News (Ohio) ,5.387435294117647
-article_837.txt,Dayton Daily News (Ohio) ,5.210917647058823
-article_838.txt,Dayton Daily News (Ohio) ,6.2744
-article_839.txt,Dayton Daily News (Ohio) ,4.991199999999999
-article_84.txt,"The Columbian (Vancouver, Washington) ",6.355563636363636
-article_840.txt,Dayton Daily News (Ohio) ,4.9213119999999995
-article_841.txt,Dayton Daily News (Ohio) ,5.068969696969697
-article_842.txt,Dayton Daily News (Ohio) ,4.867563636363636
-article_843.txt,Dayton Daily News (Ohio) ,5.291585185185185
-article_844.txt,Dayton Daily News (Ohio) ,6.324
-article_845.txt,Dayton Daily News (Ohio) ,7.288444444444444
-article_846.txt,Dayton Daily News (Ohio) ,5.2943039999999995
-article_847.txt,Dayton Daily News (Ohio) ,5.611563636363636
-article_848.txt,Dayton Daily News (Ohio) ,6.015617391304348
-article_849.txt,Dayton Daily News (Ohio) ,5.739428571428571
-article_85.txt,"The Columbian (Vancouver, Washington) ",5.460376470588235
-article_850.txt,Dayton Daily News (Ohio) ,5.6761
+article_818.txt,USA TODAY ,4.855076923076923
+article_819.txt,USA TODAY ,5.5887529411764705
+article_82.txt,St. Louis Post-Dispatch (Missouri) ,5.22536
+article_820.txt,The Salt Lake Tribune ,6.14048
+article_821.txt,USA TODAY ,4.835999999999999
+article_822.txt,USA TODAY ,5.4807999999999995
+article_823.txt,USA TODAY ,5.6048
+article_824.txt,USA TODAY ,5.737066666666666
+article_825.txt,USA TODAY ,5.469777777777778
+article_826.txt,USA TODAY ,5.497333333333334
+article_827.txt,USA TODAY ,6.39344
+article_828.txt,USA TODAY ,5.207081481481481
+article_829.txt,USA TODAY ,6.12064
+article_83.txt,USA TODAY ,4.976533333333333
+article_830.txt,The Salt Lake Tribune ,5.6854
+article_831.txt,USA TODAY ,5.466211764705882
+article_832.txt,USA TODAY ,5.341383783783783
+article_833.txt,USA TODAY ,6.9688
+article_834.txt,USA TODAY ,5.475288888888889
+article_835.txt,USA TODAY ,6.315733333333333
+article_836.txt,USA TODAY ,5.387435294117647
+article_837.txt,USA TODAY ,5.210917647058823
+article_838.txt,"The Daily Record (Baltimore, MD) ",6.2744
+article_839.txt,,4.991199999999999
+article_84.txt,,6.355563636363636
+article_840.txt,"The Columbian (Vancouver, Washington) ",4.9213119999999995
+article_841.txt,,5.068969696969697
+article_842.txt,,4.867563636363636
+article_843.txt,,5.291585185185185
+article_844.txt,,6.324
+article_845.txt,,7.288444444444444
+article_846.txt,,5.2943039999999995
+article_847.txt,,5.611563636363636
+article_848.txt,,6.015617391304348
+article_849.txt,,5.739428571428571
+article_85.txt,Dayton Daily News (Ohio) ,5.460376470588235
+article_850.txt,"The Columbian (Vancouver, Washington) ",5.6761
 article_851.txt,Dayton Daily News (Ohio) ,6.362577777777778
 article_852.txt,Dayton Daily News (Ohio) ,5.667529411764706
 article_853.txt,Dayton Daily News (Ohio) ,5.8528
@@ -820,8 +820,8 @@ article_856.txt,Dayton Daily News (Ohio) ,6.320693333333333
 article_857.txt,Dayton Daily News (Ohio) ,5.125048275862069
 article_858.txt,Dayton Daily News (Ohio) ,5.372299999999999
 article_859.txt,Dayton Daily News (Ohio) ,5.905155555555556
-article_86.txt,"The Columbian (Vancouver, Washington) ",5.656879999999999
-article_860.txt,Dayton Daily News (Ohio) ,5.754592000000001
+article_86.txt,Dayton Daily News (Ohio) ,5.656879999999999
+article_860.txt,"The Columbian (Vancouver, Washington) ",5.754592000000001
 article_861.txt,Dayton Daily News (Ohio) ,6.184218181818181
 article_862.txt,Dayton Daily News (Ohio) ,5.497333333333334
 article_863.txt,Dayton Daily News (Ohio) ,5.864660869565217
@@ -831,8 +831,8 @@ article_866.txt,Dayton Daily News (Ohio) ,5.124581818181818
 article_867.txt,Dayton Daily News (Ohio) ,5.484474074074074
 article_868.txt,Dayton Daily News (Ohio) ,5.969714285714286
 article_869.txt,Dayton Daily News (Ohio) ,5.34192
-article_87.txt,"The Columbian (Vancouver, Washington) ",5.563466666666667
-article_870.txt,Dayton Daily News (Ohio) ,6.129142857142857
+article_87.txt,Dayton Daily News (Ohio) ,5.563466666666667
+article_870.txt,"The Columbian (Vancouver, Washington) ",6.129142857142857
 article_871.txt,Dayton Daily News (Ohio) ,5.307751111111111
 article_872.txt,Dayton Daily News (Ohio) ,5.706755555555556
 article_873.txt,Dayton Daily News (Ohio) ,5.359555555555556
@@ -842,8 +842,8 @@ article_876.txt,Dayton Daily News (Ohio) ,5.9272
 article_877.txt,Dayton Daily News (Ohio) ,6.129415384615385
 article_878.txt,Dayton Daily News (Ohio) ,5.169672727272727
 article_879.txt,Dayton Daily News (Ohio) ,6.042933333333334
-article_88.txt,"The Columbian (Vancouver, Washington) ",5.250836363636363
-article_880.txt,Dayton Daily News (Ohio) ,6.4666
+article_88.txt,Dayton Daily News (Ohio) ,5.250836363636363
+article_880.txt,"The Columbian (Vancouver, Washington) ",6.4666
 article_881.txt,Dayton Daily News (Ohio) ,5.523930434782608
 article_882.txt,Dayton Daily News (Ohio) ,6.309828571428572
 article_883.txt,Dayton Daily News (Ohio) ,5.015586206896551
@@ -853,124 +853,124 @@ article_886.txt,Dayton Daily News (Ohio) ,4.991269565217391
 article_887.txt,Dayton Daily News (Ohio) ,6.799333333333333
 article_888.txt,Dayton Daily News (Ohio) ,5.60976
 article_889.txt,Dayton Daily News (Ohio) ,5.26008
-article_89.txt,The Forward ,6.4798857142857145
-article_890.txt,Dayton Daily News (Ohio) ,5.869969230769231
+article_89.txt,Dayton Daily News (Ohio) ,6.4798857142857145
+article_890.txt,"The Columbian (Vancouver, Washington) ",5.869969230769231
 article_891.txt,Dayton Daily News (Ohio) ,5.213904761904762
 article_892.txt,Dayton Daily News (Ohio) ,5.523930434782608
 article_893.txt,Dayton Daily News (Ohio) ,5.464266666666666
 article_894.txt,Dayton Daily News (Ohio) ,5.188
-article_895.txt,The Hartford Courant ,4.793163636363636
-article_896.txt,The Hartford Courant ,4.877015384615384
-article_897.txt,The Hartford Courant ,5.315466666666667
-article_898.txt,The Hartford Courant ,5.899644444444444
-article_899.txt,The Hartford Courant ,4.960349295774648
-article_9.txt,St. Louis Post-Dispatch (Missouri) ,5.6792
-article_90.txt,The Forward ,6.143314285714285
-article_900.txt,The Hartford Courant ,5.225169230769231
-article_901.txt,The Hartford Courant ,5.303965217391304
-article_902.txt,The Hartford Courant ,5.7133
-article_903.txt,The Hartford Courant ,5.48576
-article_904.txt,The Hartford Courant ,5.447733333333333
-article_905.txt,The Hartford Courant ,5.256608
-article_906.txt,The Hartford Courant ,5.34688
-article_907.txt,The Hartford Courant ,7.046742857142856
-article_908.txt,The Hartford Courant ,5.55024
-article_909.txt,The Hartford Courant ,5.2033499999999995
+article_895.txt,Dayton Daily News (Ohio) ,4.793163636363636
+article_896.txt,Dayton Daily News (Ohio) ,4.877015384615384
+article_897.txt,Dayton Daily News (Ohio) ,5.315466666666667
+article_898.txt,Dayton Daily News (Ohio) ,5.899644444444444
+article_899.txt,Dayton Daily News (Ohio) ,4.960349295774648
+article_9.txt,Dayton Daily News (Ohio) ,5.6792
+article_90.txt,"The Columbian (Vancouver, Washington) ",6.143314285714285
+article_900.txt,Dayton Daily News (Ohio) ,5.225169230769231
+article_901.txt,Dayton Daily News (Ohio) ,5.303965217391304
+article_902.txt,Dayton Daily News (Ohio) ,5.7133
+article_903.txt,Dayton Daily News (Ohio) ,5.48576
+article_904.txt,Dayton Daily News (Ohio) ,5.447733333333333
+article_905.txt,Dayton Daily News (Ohio) ,5.256608
+article_906.txt,Dayton Daily News (Ohio) ,5.34688
+article_907.txt,Dayton Daily News (Ohio) ,7.046742857142856
+article_908.txt,Dayton Daily News (Ohio) ,5.55024
+article_909.txt,Dayton Daily News (Ohio) ,5.2033499999999995
 article_91.txt,The Forward ,5.062117647058823
-article_910.txt,The Hartford Courant ,7.9497777777777765
-article_911.txt,The Hartford Courant ,5.472533333333333
-article_912.txt,The Hartford Courant ,5.954755555555556
-article_913.txt,The Hartford Courant ,6.0698
-article_914.txt,The Hartford Courant ,5.306121739130434
+article_910.txt,Dayton Daily News (Ohio) ,7.9497777777777765
+article_911.txt,Dayton Daily News (Ohio) ,5.472533333333333
+article_912.txt,Dayton Daily News (Ohio) ,5.954755555555556
+article_913.txt,Dayton Daily News (Ohio) ,6.0698
+article_914.txt,Dayton Daily News (Ohio) ,5.306121739130434
 article_915.txt,The Hartford Courant ,6.0698
-article_916.txt,The Baltimore Sun ,5.46592
-article_917.txt,The Baltimore Sun ,5.647636363636364
-article_918.txt,The Baltimore Sun ,5.12351186440678
-article_919.txt,The Baltimore Sun ,5.320977777777777
-article_92.txt,The Forward ,6.359428571428571
-article_920.txt,The Baltimore Sun ,6.1876
-article_921.txt,The Baltimore Sun ,5.025542857142857
-article_922.txt,The Baltimore Sun ,5.304945454545454
-article_923.txt,The Baltimore Sun ,5.6296
-article_924.txt,The Baltimore Sun ,5.29232
-article_925.txt,The Baltimore Sun ,4.8111999999999995
-article_926.txt,The Baltimore Sun ,4.793163636363636
-article_927.txt,The Baltimore Sun ,5.6382260869565215
-article_928.txt,The Baltimore Sun ,5.1243
-article_929.txt,The Baltimore Sun ,5.904466666666666
-article_93.txt,The Forward ,6.491695238095238
-article_930.txt,The Baltimore Sun ,5.496847058823529
-article_931.txt,The Baltimore Sun ,7.9497777777777765
-article_932.txt,The Baltimore Sun ,6.1256
-article_933.txt,The Baltimore Sun ,6.399705263157895
-article_934.txt,The Baltimore Sun ,6.0698
-article_935.txt,Sarasota Herald Tribune (Florida) ,4.908746666666667
-article_936.txt,Pittsburgh Tribune Review ,6.14544
-article_937.txt,Pittsburgh Tribune Review ,5.9768
-article_938.txt,Pittsburgh Tribune Review ,6.924711111111112
-article_939.txt,Pittsburgh Tribune Review ,5.92224
-article_94.txt,Austin American-Statesman (Texas) ,5.049661538461538
-article_940.txt,Pittsburgh Tribune Review ,5.434117647058823
-article_941.txt,Pittsburgh Tribune Review ,4.502971428571429
-article_942.txt,Pittsburgh Tribune Review ,6.31408
-article_943.txt,Pittsburgh Tribune Review ,5.37396923076923
-article_944.txt,Pittsburgh Tribune Review ,5.236342857142857
-article_945.txt,Pittsburgh Tribune Review ,5.750057142857143
-article_946.txt,Pittsburgh Tribune Review ,6.2992
-article_947.txt,Pittsburgh Tribune Review ,6.287927272727273
-article_948.txt,Pittsburgh Tribune Review ,13.962399999999999
-article_949.txt,Pittsburgh Tribune Review ,5.58
-article_95.txt,Austin American-Statesman (Texas) ,4.988106666666667
-article_950.txt,"The Daily Oklahoman (Oklahoma City, OK) ",5.4467
-article_951.txt,"The Daily Oklahoman (Oklahoma City, OK) ",4.857257142857143
-article_952.txt,"The Daily Oklahoman (Oklahoma City, OK) ",5.106892307692307
-article_953.txt,"The Daily Oklahoman (Oklahoma City, OK) ",5.183199999999999
-article_954.txt,"Spokesman Review (Spokane, WA) ",5.627616
-article_955.txt,"Spokesman Review (Spokane, WA) ",6.9985599999999994
-article_956.txt,"Spokesman Review (Spokane, WA) ",6.138652631578948
-article_957.txt,"Spokesman Review (Spokane, WA) ",6.876685714285714
-article_958.txt,"Spokesman Review (Spokane, WA) ",5.274133333333333
-article_959.txt,"Spokesman Review (Spokane, WA) ",6.093714285714285
-article_96.txt,Austin American-Statesman (Texas) ,5.612094117647059
-article_960.txt,"Spokesman Review (Spokane, WA) ",6.696
-article_961.txt,"Spokesman Review (Spokane, WA) ",5.547905882352941
-article_962.txt,"Spokesman Review (Spokane, WA) ",5.583542857142857
-article_963.txt,"Spokesman Review (Spokane, WA) ",5.931333333333333
-article_964.txt,"Spokesman Review (Spokane, WA) ",5.0964
-article_965.txt,"Spokesman Review (Spokane, WA) ",6.199999999999999
-article_966.txt,"Spokesman Review (Spokane, WA) ",5.340551724137931
-article_967.txt,"Spokesman Review (Spokane, WA) ",5.08138947368421
-article_968.txt,"Spokesman Review (Spokane, WA) ",7.33584
-article_969.txt,"Spokesman Review (Spokane, WA) ",5.8094
-article_970.txt,"Spokesman Review (Spokane, WA) ",6.753866666666666
-article_971.txt,"Spokesman Review (Spokane, WA) ",5.279565714285714
-article_972.txt,"Spokesman Review (Spokane, WA) ",7.316
-article_973.txt,"Spokesman Review (Spokane, WA) ",6.114971428571428
-article_974.txt,"Spokesman Review (Spokane, WA) ",5.7563555555555554
-article_975.txt,"Spokesman Review (Spokane, WA) ",5.971288888888889
+article_916.txt,The Hartford Courant ,5.46592
+article_917.txt,The Hartford Courant ,5.647636363636364
+article_918.txt,The Hartford Courant ,5.12351186440678
+article_919.txt,The Hartford Courant ,5.320977777777777
+article_92.txt,St. Louis Post-Dispatch (Missouri) ,6.359428571428571
+article_920.txt,The Forward ,6.1876
+article_921.txt,The Hartford Courant ,5.025542857142857
+article_922.txt,The Hartford Courant ,5.304945454545454
+article_923.txt,The Hartford Courant ,5.6296
+article_924.txt,The Hartford Courant ,5.29232
+article_925.txt,The Hartford Courant ,4.8111999999999995
+article_926.txt,The Hartford Courant ,4.793163636363636
+article_927.txt,The Hartford Courant ,5.6382260869565215
+article_928.txt,The Hartford Courant ,5.1243
+article_929.txt,The Hartford Courant ,5.904466666666666
+article_93.txt,The Hartford Courant ,6.491695238095238
+article_930.txt,The Forward ,5.496847058823529
+article_931.txt,The Hartford Courant ,7.9497777777777765
+article_932.txt,The Hartford Courant ,6.1256
+article_933.txt,The Hartford Courant ,6.399705263157895
+article_934.txt,The Hartford Courant ,6.0698
+article_935.txt,The Hartford Courant ,4.908746666666667
+article_936.txt,The Hartford Courant ,6.14544
+article_937.txt,The Baltimore Sun ,5.9768
+article_938.txt,The Baltimore Sun ,6.924711111111112
+article_939.txt,The Baltimore Sun ,5.92224
+article_94.txt,The Baltimore Sun ,5.049661538461538
+article_940.txt,The Forward ,5.434117647058823
+article_941.txt,The Baltimore Sun ,4.502971428571429
+article_942.txt,The Baltimore Sun ,6.31408
+article_943.txt,The Baltimore Sun ,5.37396923076923
+article_944.txt,The Baltimore Sun ,5.236342857142857
+article_945.txt,The Baltimore Sun ,5.750057142857143
+article_946.txt,The Baltimore Sun ,6.2992
+article_947.txt,The Baltimore Sun ,6.287927272727273
+article_948.txt,The Baltimore Sun ,13.962399999999999
+article_949.txt,The Baltimore Sun ,5.58
+article_95.txt,The Baltimore Sun ,4.988106666666667
+article_950.txt,The Forward ,5.4467
+article_951.txt,The Baltimore Sun ,4.857257142857143
+article_952.txt,The Baltimore Sun ,5.106892307692307
+article_953.txt,The Baltimore Sun ,5.183199999999999
+article_954.txt,The Baltimore Sun ,5.627616
+article_955.txt,The Baltimore Sun ,6.9985599999999994
+article_956.txt,Sarasota Herald Tribune (Florida) ,6.138652631578948
+article_957.txt,Pittsburgh Tribune Review ,6.876685714285714
+article_958.txt,Pittsburgh Tribune Review ,5.274133333333333
+article_959.txt,Pittsburgh Tribune Review ,6.093714285714285
+article_96.txt,Pittsburgh Tribune Review ,5.612094117647059
+article_960.txt,Austin American-Statesman (Texas) ,6.696
+article_961.txt,Pittsburgh Tribune Review ,5.547905882352941
+article_962.txt,Pittsburgh Tribune Review ,5.583542857142857
+article_963.txt,Pittsburgh Tribune Review ,5.931333333333333
+article_964.txt,Pittsburgh Tribune Review ,5.0964
+article_965.txt,Pittsburgh Tribune Review ,6.199999999999999
+article_966.txt,Pittsburgh Tribune Review ,5.340551724137931
+article_967.txt,Pittsburgh Tribune Review ,5.08138947368421
+article_968.txt,Pittsburgh Tribune Review ,7.33584
+article_969.txt,Pittsburgh Tribune Review ,5.8094
+article_970.txt,Pittsburgh Tribune Review ,6.753866666666666
+article_971.txt,Austin American-Statesman (Texas) ,5.279565714285714
+article_972.txt,"The Daily Oklahoman (Oklahoma City, OK) ",7.316
+article_973.txt,"The Daily Oklahoman (Oklahoma City, OK) ",6.114971428571428
+article_974.txt,"The Daily Oklahoman (Oklahoma City, OK) ",5.7563555555555554
+article_975.txt,"The Daily Oklahoman (Oklahoma City, OK) ",5.971288888888889
 article_976.txt,"Spokesman Review (Spokane, WA) ",5.695733333333333
 article_977.txt,"Spokesman Review (Spokane, WA) ",5.7288
 article_978.txt,"Spokesman Review (Spokane, WA) ",5.200914285714285
 article_979.txt,"Spokesman Review (Spokane, WA) ",6.9502
-article_98.txt,"LNP (Lancaster, PA) ",5.509515789473684
+article_98.txt,"Spokesman Review (Spokane, WA) ",5.509515789473684
 article_980.txt,"Spokesman Review (Spokane, WA) ",5.3816
-article_981.txt,"Spokesman Review (Spokane, WA) ",7.192
+article_981.txt,Austin American-Statesman (Texas) ,7.192
 article_982.txt,"Spokesman Review (Spokane, WA) ",4.878836363636363
 article_983.txt,"Spokesman Review (Spokane, WA) ",4.6593
 article_984.txt,"Spokesman Review (Spokane, WA) ",6.1566
 article_985.txt,"Spokesman Review (Spokane, WA) ",6.1710666666666665
 article_986.txt,"Spokesman Review (Spokane, WA) ",6.1163
-article_987.txt,"Tribune-Review (Greensburg, PA) ",5.770133333333334
-article_988.txt,"The Herald-Sun (Durham, N.C.) ",5.3568
-article_989.txt,"The Herald-Sun (Durham, N.C.) ",5.86768
-article_99.txt,"LNP (Lancaster, PA) ",5.427232
-article_990.txt,South Bend Tribune (Indiana) ,5.3352524590163934
-article_991.txt,South Bend Tribune (Indiana) ,5.720047058823529
-article_992.txt,South Bend Tribune (Indiana) ,4.9848
-article_993.txt,South Bend Tribune (Indiana) ,5.1752
-article_994.txt,South Bend Tribune (Indiana) ,5.063475862068965
-article_995.txt,Bangor Daily News (Maine) ,4.815434146341463
-article_996.txt,Bangor Daily News (Maine) ,4.815434146341463
-article_997.txt,Bangor Daily News (Maine) ,5.4967428571428565
-article_998.txt,Bangor Daily News (Maine) ,5.215085714285713
-article_999.txt,Bangor Daily News (Maine) ,6.1326857142857145
+article_987.txt,"Spokesman Review (Spokane, WA) ",5.770133333333334
+article_988.txt,"Spokesman Review (Spokane, WA) ",5.3568
+article_989.txt,"Spokesman Review (Spokane, WA) ",5.86768
+article_99.txt,"Spokesman Review (Spokane, WA) ",5.427232
+article_990.txt,"Spokesman Review (Spokane, WA) ",5.3352524590163934
+article_991.txt,Austin American-Statesman (Texas) ,5.720047058823529
+article_992.txt,"Spokesman Review (Spokane, WA) ",4.9848
+article_993.txt,"Spokesman Review (Spokane, WA) ",5.1752
+article_994.txt,"Spokesman Review (Spokane, WA) ",5.063475862068965
+article_995.txt,"Spokesman Review (Spokane, WA) ",4.815434146341463
+article_996.txt,"Spokesman Review (Spokane, WA) ",4.815434146341463
+article_997.txt,"Spokesman Review (Spokane, WA) ",5.4967428571428565
+article_998.txt,"Spokesman Review (Spokane, WA) ",5.215085714285713
+article_999.txt,"Spokesman Review (Spokane, WA) ",6.1326857142857145

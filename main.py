@@ -30,6 +30,8 @@ for e in entries:
         grade = DCR.grade(text, dict)
         writer.writerow({'file': e,'Publisher': reffile.readline()[:-1], 'Readability': grade})
     except UnicodeDecodeError:
+        #textfile.close()
+        #os.remove(os.path.join('data/content1',e))
         print "skip", e
     textfile.close()
     reffile.close()

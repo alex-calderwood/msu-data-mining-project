@@ -30,7 +30,7 @@ public class TripletExtraction {
     boolean runFullParse = true;
     boolean runSentiment = false;
     boolean runDepParse = false;
-    boolean runTokenAnnotations = true;
+    boolean runTokenAnnotations = false;
     boolean runOpenIE = true;
     boolean runCoref = true;
 
@@ -43,14 +43,19 @@ public class TripletExtraction {
         init();
 
         // Get all files in specified directory
-        File[] files = IoUtils.getFiles("TextFiles/");
+        File[] files = IoUtils.getFiles("../../../data/content1/");
 
         // Extract Subject-Predicate-Object triplets
         for (File file : files) {
-            String outName = "out_" + file.getName();
-            IoUtils.openFile(outName);
-            easyParse(IoUtils.extractText(file));
-            IoUtils.closeFile();
+//            String outName = "../../../data/svo_xml/out_" + file.getName();
+//            IoUtils.openFile(outName);
+            Annotation document = easyParse(IoUtils.extractText(file));
+//            IoUtils.closeFile();
+
+            String outFileName = "../../../data/xml/" + file.getName();
+
+            if(printToXML)
+                xmlPrint(document, outFileName);
         }
     }
 
@@ -77,8 +82,8 @@ public class TripletExtraction {
     }
 
 
-    private void easyParse(String text) {
-        IoUtils.pr(text.toString() + "\n");
+    private Annotation easyParse(String text) {
+//        IoUtils.pr(text.toString() + "\n");
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(text);
@@ -87,24 +92,26 @@ public class TripletExtraction {
         pipeline.annotate(document);
 
         // print annotations
-        if(doManualPrinting) {
-            if (runFullParse)
-                printFullParse(document);
-            if (runDepParse)
-                printDepParse(document);
-            if (runTokenAnnotations)
-                printTokenAnnotations(document);
-            if (runSentiment)
-                printSentiment(document);
-            if (runOpenIE)
-                printOpenIeSvoTriple(document);
-        }
+//        if(doManualPrinting) {
+//            if (runFullParse)
+//                printFullParse(document);
+//            if (runDepParse)
+//                printDepParse(document);
+//            if (runTokenAnnotations)
+//                printTokenAnnotations(document);
+//            if (runSentiment)
+//                printSentiment(document);
+//            if (runOpenIE)
+//                printOpenIeSvoTriple(document);
+//        }
 
-        pipeline.prettyPrint(document, System.out);
+//        pipeline.prettyPrint(document, System.out);
+        return document;
+    }
 
-        if(printToXML)
+    private void xmlPrint(Annotation document, String fileName) {
             try {
-                pipeline.xmlPrint(document, new FileWriter("test.xml"));
+                pipeline.xmlPrint(document, new FileWriter(fileName));
             } catch (IOException e) {
                 e.printStackTrace();
             }
