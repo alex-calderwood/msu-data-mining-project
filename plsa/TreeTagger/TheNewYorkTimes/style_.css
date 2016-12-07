@@ -1,0 +1,43 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ }
+body {
+ background-color: white; 
+ font-family: Verdana, sans-serif; 
+ font-size: 100%;
+ }
+h1 {
+ font-size: 150%; 
+ color: rgb(97,97,97);  
+ text-align: left;
+ margin: 5px;
+ }
+p,ul,li {
+ color: black; 
+ }
+ul {
+ list-style:none;
+ margin-left: 10px;
+ margin-bottom: 10px;
+ display: inline-block;
+ border: 1px solid black;
+ padding : 1px;
+ float: left;
+}
+section {
+	float: left;
+}
+li {
+    border-bottom: 1px solid #ddd;
+}
+li:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.Titre {
+font-size: 200%; 
+ color: rgb(64,64,64);  
+ text-align: left;
+ margin: 5px;
+ text-align: center;
+}

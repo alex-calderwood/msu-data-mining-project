@@ -1,0 +1,838 @@
+Parsing docs file representation_tf.txt...
+Parsing complete, total number of documents is 299.
+Current reg value: 0
+Start estimation.
+===================================
+EM iteration 1
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.938429494212
+Phi diff: 0.0901417313336; Theta diff: 0.137453294592
+EM iteration 2
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.938307133087
+Phi diff: 0.00344404374234; Theta diff: 0.000213064638065
+EM iteration 3
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93813754858
+Phi diff: 0.00396227823846; Theta diff: 0.000410232349418
+EM iteration 4
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.937907271207
+Phi diff: 0.00497404593621; Theta diff: 0.000640772706969
+EM iteration 5
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.937604824178
+Phi diff: 0.00644688844077; Theta diff: 0.000905305383382
+EM iteration 6
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93722760271
+Phi diff: 0.00817478763136; Theta diff: 0.00117515180356
+EM iteration 7
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.936785992525
+Phi diff: 0.00962944631676; Theta diff: 0.00140014253861
+EM iteration 8
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.936303865223
+Phi diff: 0.0100491869467; Theta diff: 0.00152327939474
+EM iteration 9
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.935818989798
+Phi diff: 0.00899013149841; Theta diff: 0.00150829284621
+EM iteration 10
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.935377152643
+Phi diff: 0.0068294051458; Theta diff: 0.0013807986908
+EM iteration 11
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.935016272608
+Phi diff: 0.0057313158454; Theta diff: 0.00121393996258
+EM iteration 12
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934751607203
+Phi diff: 0.00724347755819; Theta diff: 0.00106457521224
+EM iteration 13
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934573751158
+Phi diff: 0.00750289399563; Theta diff: 0.000948191987959
+EM iteration 14
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934460297126
+Phi diff: 0.00607533140472; Theta diff: 0.000854930654851
+EM iteration 15
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93438751395
+Phi diff: 0.00591282128308; Theta diff: 0.000770686116493
+EM iteration 16
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934334441645
+Phi diff: 0.00599180657189; Theta diff: 0.000685987217266
+EM iteration 17
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934289449628
+Phi diff: 0.00495077954748; Theta diff: 0.000599856126528
+EM iteration 18
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934249908248
+Phi diff: 0.00338607522142; Theta diff: 0.000516819509853
+EM iteration 19
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934217095978
+Phi diff: 0.00258739769816; Theta diff: 0.000441135695127
+EM iteration 20
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934191574695
+Phi diff: 0.00291447158152; Theta diff: 0.000372503298214
+EM iteration 21
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934173831626
+Phi diff: 0.00302771289695; Theta diff: 0.000312322400977
+EM iteration 22
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934163686512
+Phi diff: 0.00296182676668; Theta diff: 0.000268097904502
+EM iteration 23
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934160371726
+Phi diff: 0.00277141280184; Theta diff: 0.000228424953996
+EM iteration 24
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934162289334
+Phi diff: 0.0025053030153; Theta diff: 0.000205733676776
+EM iteration 25
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934166860956
+Phi diff: 0.00222205113482; Theta diff: 0.000190947483917
+EM iteration 26
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934173930854
+Phi diff: 0.00196613470375; Theta diff: 0.00018036496993
+EM iteration 27
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934183475373
+Phi diff: 0.00173509714602; Theta diff: 0.000187032196023
+EM iteration 28
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934195253683
+Phi diff: 0.00152392830145; Theta diff: 0.000182902019779
+EM iteration 29
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934207987413
+Phi diff: 0.00132952551293; Theta diff: 0.000172358124562
+EM iteration 30
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934221257692
+Phi diff: 0.00114815722086; Theta diff: 0.000158188854337
+EM iteration 31
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93423485667
+Phi diff: 0.00104924213813; Theta diff: 0.00014206742534
+EM iteration 32
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934248861656
+Phi diff: 0.00105874909998; Theta diff: 0.000127012700736
+EM iteration 33
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934263249907
+Phi diff: 0.00105346999458; Theta diff: 0.000115141180088
+EM iteration 34
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934278367886
+Phi diff: 0.00105179709654; Theta diff: 0.000103518540172
+EM iteration 35
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934293672223
+Phi diff: 0.00103946258563; Theta diff: 9.16940301781e-05
+EM iteration 36
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934308807791
+Phi diff: 0.000999691031427; Theta diff: 8.27171840075e-05
+EM iteration 37
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934323830778
+Phi diff: 0.000940944879065; Theta diff: 7.81188426509e-05
+EM iteration 38
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934338625169
+Phi diff: 0.000886997970451; Theta diff: 7.59964641815e-05
+EM iteration 39
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934353107396
+Phi diff: 0.000853330474705; Theta diff: 8.01799198449e-05
+EM iteration 40
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934367246752
+Phi diff: 0.000839713379928; Theta diff: 8.82919545737e-05
+EM iteration 41
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934381583089
+Phi diff: 0.000829420330673; Theta diff: 9.69005416514e-05
+EM iteration 42
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934396394227
+Phi diff: 0.000834856224543; Theta diff: 0.000105266013477
+EM iteration 43
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934411587669
+Phi diff: 0.000869491835956; Theta diff: 0.000112412519151
+EM iteration 44
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934426828444
+Phi diff: 0.000944710919428; Theta diff: 0.000117318144703
+EM iteration 45
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934442142746
+Phi diff: 0.00105611821297; Theta diff: 0.000119291157266
+EM iteration 46
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934457561715
+Phi diff: 0.00119099327971; Theta diff: 0.000118147971381
+EM iteration 47
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934472988772
+Phi diff: 0.00136462617626; Theta diff: 0.00011412751765
+EM iteration 48
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934488302657
+Phi diff: 0.00155858099212; Theta diff: 0.000107992998422
+EM iteration 49
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934503446442
+Phi diff: 0.00175079843668; Theta diff: 0.000101053932819
+EM iteration 50
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934518306236
+Phi diff: 0.00193044500753; Theta diff: 9.47374774497e-05
+EM iteration 51
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934532683582
+Phi diff: 0.00208668176256; Theta diff: 8.99289241452e-05
+EM iteration 52
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93454644144
+Phi diff: 0.00222233259417; Theta diff: 8.67986237033e-05
+EM iteration 53
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93455954124
+Phi diff: 0.00234225046322; Theta diff: 8.50109972239e-05
+EM iteration 54
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934572021051
+Phi diff: 0.00243964220373; Theta diff: 8.41786426919e-05
+EM iteration 55
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934583889513
+Phi diff: 0.0025147105739; Theta diff: 8.37673175586e-05
+EM iteration 56
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934595104917
+Phi diff: 0.00256479861087; Theta diff: 8.31001535541e-05
+EM iteration 57
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934605594003
+Phi diff: 0.00258116233938; Theta diff: 8.17783986753e-05
+EM iteration 58
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93461534008
+Phi diff: 0.00255573511258; Theta diff: 7.97650785796e-05
+EM iteration 59
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934624339041
+Phi diff: 0.00248518046216; Theta diff: 7.72613480052e-05
+EM iteration 60
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934632289579
+Phi diff: 0.00237110664637; Theta diff: 7.3791840173e-05
+EM iteration 61
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934639072067
+Phi diff: 0.00221285564467; Theta diff: 6.89302342058e-05
+EM iteration 62
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934644756233
+Phi diff: 0.00201247005256; Theta diff: 6.33279616892e-05
+EM iteration 63
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934649365054
+Phi diff: 0.00178698031579; Theta diff: 5.75725542608e-05
+EM iteration 64
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934652909558
+Phi diff: 0.00155667108732; Theta diff: 5.13048190988e-05
+EM iteration 65
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93465549015
+Phi diff: 0.0013295713507; Theta diff: 4.50853714539e-05
+EM iteration 66
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93465732751
+Phi diff: 0.00111138876006; Theta diff: 4.20757614167e-05
+EM iteration 67
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934658655967
+Phi diff: 0.000924616179872; Theta diff: 4.64646390419e-05
+EM iteration 68
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934659476489
+Phi diff: 0.000818940384321; Theta diff: 4.92528743868e-05
+EM iteration 69
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934659847796
+Phi diff: 0.000748956346549; Theta diff: 4.34039447021e-05
+EM iteration 70
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934660026714
+Phi diff: 0.000643008896509; Theta diff: 3.54550048508e-05
+EM iteration 71
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934660377177
+Phi diff: 0.000528033941589; Theta diff: 2.9117611667e-05
+EM iteration 72
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661185253
+Phi diff: 0.000439420704219; Theta diff: 2.42015867855e-05
+EM iteration 73
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662049787
+Phi diff: 0.000385556730316; Theta diff: 2.16695417456e-05
+EM iteration 74
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662447919
+Phi diff: 0.00036005970666; Theta diff: 2.03324147725e-05
+EM iteration 75
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662491032
+Phi diff: 0.000322354125116; Theta diff: 1.96195019627e-05
+EM iteration 76
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662385015
+Phi diff: 0.000272664946918; Theta diff: 1.84823491497e-05
+EM iteration 77
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662179047
+Phi diff: 0.000231065817492; Theta diff: 1.71512193603e-05
+EM iteration 78
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661976518
+Phi diff: 0.000193953495086; Theta diff: 1.58989371736e-05
+EM iteration 79
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661815173
+Phi diff: 0.000163059445534; Theta diff: 1.48383216739e-05
+EM iteration 80
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661700028
+Phi diff: 0.000135981853222; Theta diff: 1.40793699514e-05
+EM iteration 81
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661616631
+Phi diff: 0.000116579244432; Theta diff: 1.39794624083e-05
+EM iteration 82
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661537838
+Phi diff: 9.96213083558e-05; Theta diff: 1.38319395884e-05
+EM iteration 83
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661464382
+Phi diff: 8.62708146559e-05; Theta diff: 1.4124115058e-05
+EM iteration 84
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661400168
+Phi diff: 7.51360620272e-05; Theta diff: 1.41440888723e-05
+EM iteration 85
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661348018
+Phi diff: 6.61347519767e-05; Theta diff: 1.35924054763e-05
+EM iteration 86
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661343575
+Phi diff: 5.75970512806e-05; Theta diff: 1.26063752372e-05
+EM iteration 87
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934661634656
+Phi diff: 9.41335116274e-05; Theta diff: 1.14889057169e-05
+EM iteration 88
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93466227051
+Phi diff: 0.00017925496578; Theta diff: 1.0876833293e-05
+EM iteration 89
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662694806
+Phi diff: 0.000117957854283; Theta diff: 1.1450109141e-05
+EM iteration 90
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662831872
+Phi diff: 7.10567544003e-05; Theta diff: 1.16256379049e-05
+EM iteration 91
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662848613
+Phi diff: 6.59959378241e-05; Theta diff: 1.133096711e-05
+EM iteration 92
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662851759
+Phi diff: 5.87410248444e-05; Theta diff: 1.11346612402e-05
+EM iteration 93
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662857929
+Phi diff: 5.22617365211e-05; Theta diff: 1.09365477019e-05
+EM iteration 94
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662853173
+Phi diff: 8.10481862214e-05; Theta diff: 1.07541908406e-05
+EM iteration 95
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662835846
+Phi diff: 0.000111528676969; Theta diff: 1.07016864431e-05
+EM iteration 96
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662824078
+Phi diff: 0.000130937124531; Theta diff: 1.0634128695e-05
+EM iteration 97
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662840797
+Phi diff: 0.000128540812838; Theta diff: 1.0724534821e-05
+EM iteration 98
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662878609
+Phi diff: 0.000106807371094; Theta diff: 1.12884694786e-05
+EM iteration 99
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662910944
+Phi diff: 7.8132154923e-05; Theta diff: 1.16139194548e-05
+EM iteration 100
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662920551
+Phi diff: 5.30226383336e-05; Theta diff: 1.34553317302e-05
+EM iteration 101
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.93466289513
+Phi diff: 6.78710150953e-05; Theta diff: 1.64775152872e-05
+EM iteration 102
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662850969
+Phi diff: 0.000106627975478; Theta diff: 2.04352196055e-05
+EM iteration 103
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662829848
+Phi diff: 5.19505074184e-05; Theta diff: 2.57291784512e-05
+EM iteration 104
+50 documents processed, 8% of the total amount
+100 documents processed, 16% of the total amount
+150 documents processed, 25% of the total amount
+200 documents processed, 33% of the total amount
+250 documents processed, 41% of the total amount
+Perplexity 0.934662827354
+Phi diff: 4.22229356324e-05; Theta diff: 3.27107722832e-05
+Algorithm converged.
